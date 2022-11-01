@@ -2,6 +2,10 @@ import cv2
 class LogoDetector:
     def __init__(self) -> None:
         pass
+    
+    def createDetector(self):
+        detector = cv2.ORB_create(nfeatures=2000)
+        return detector
     def getFeatures(self,img):
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         detector = createDetector()
