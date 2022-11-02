@@ -59,6 +59,10 @@ creative-optimisation-cv
 
 ```
 
-## Authors
-
-👤 **Janerose Njogu, Ekubazgi Gebremariam, Degaga Wolde,Michael Getachew, Patrick Rubayita, Adijat Ojutomori**
+## Authors 👤
+ 1) Janerose Njogu
+ 2) Ekubazgi Gebremariam
+ 3) Degaga Wolde
+ 4) Michael Getachew
+ 5) Patrick Rubayita
+ 6) Adijat Ojutomori
