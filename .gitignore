@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 data
 .history
+scripts/yolov7segmentation
