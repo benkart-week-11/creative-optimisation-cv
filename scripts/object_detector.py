@@ -1,5 +1,6 @@
 from pathlib import Path
-
+import cv2
+   
 from gluoncv import model_zoo, data, utils
 from matplotlib import pyplot as plt
 
@@ -16,6 +17,25 @@ class ObjectDetector:
         print('Shape of pre-processed image:', x.shape)
         class_IDs, scores, bounding_boxs = net(x)
         
+        return class_IDs, scores, bounding_boxs,img
+    
+    def detect_from_video(self,video_path,net):
+        # Opens the Video file
+        cap= cv2.VideoCapture('football1.mp4')
+        i=0
+        while(cap.isOpened()):
+            ret, frame = cap.read()
+            if ret == False:
+                break
+            cv2.imwrite('kang'+str(i)+'.jpg',frame)
+            i+=1
+            x, img = data.transforms.presets.yolo.load_test('kang'+str(i)+'.jpg', short=512)
+            print('Shape of pre-processed image:', x.shape)
+            class_IDs, scores, bounding_boxs = net(x)
+            
+            cap.release()
+            cv2.destroyAllWindows()
+            
         return class_IDs, scores, bounding_boxs,img
         
     def plot_detection(self,img,class_IDs, scores, bounding_boxs):
