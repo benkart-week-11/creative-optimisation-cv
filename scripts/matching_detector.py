@@ -25,7 +25,7 @@ class MatchingDetector:
         else:
             top_left = max_loc
         bottom_right = (top_left[0] + w, top_left[1] + h)
-        cv.rectangle(img,top_left, bottom_right, 255, 2)
+        cv.rectangle(img,top_left, bottom_right, 0, 3)
         plt.subplot(121),plt.imshow(res,cmap = 'gray')
         plt.title('Matching Result'), plt.xticks([]), plt.yticks([])
         plt.subplot(122),plt.imshow(img,cmap = 'gray')
