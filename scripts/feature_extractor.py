@@ -1,14 +1,16 @@
 import cv2
-class LogoDetector:
+import numpy as np
+class FeatureDetector:
     def __init__(self) -> None:
         pass
     
     def createDetector(self):
         detector = cv2.ORB_create(nfeatures=2000)
         return detector
+    
     def getFeatures(self,img):
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-        detector = createDetector()
+        detector = self.createDetector()
         kps, descs = detector.detectAndCompute(gray, None)
         return kps, descs, img.shape[:2][::-1]
     
@@ -47,17 +49,3 @@ class LogoDetector:
             if rect[1][1] > 0 and 0.8 < (rect[1][0] / rect[1][1]) < 1.2:
                 return rect
         return None
-    
-features = LogoDetector()
-    # get train features
-img = cv2.imread('logo_train.png')
-train_features = features.getFeatures(img)
-# detect features on test image
-region = features.detectFeatures(frame, train_features)
-if region is not None:
-    # draw rotated bounding box
-    box = cv2.boxPoints(region)
-    box = np.int0(box)
-    cv2.drawContours(img, [box], 0, (0, 255, 0), 2)
-# display the image
-cv2.imshow("Preview", img)
