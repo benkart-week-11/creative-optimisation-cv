@@ -15,7 +15,7 @@ class ObjectDetector:
      
     def detect_from_image(self,image_path,net):
         x, img = data.transforms.presets.yolo.load_test(image_path, short=512)
-        print('Shape of pre-processed image:', x.shape)
+        # print('Shape of pre-processed image:', x.shape)
         class_IDs, scores, bounding_boxs = net(x)
         return class_IDs, scores, bounding_boxs,img
     
@@ -35,7 +35,7 @@ class ObjectDetector:
             tp = frame.shape[0]*frame.shape[1]
             cv2.imwrite('kang'+str(i)+'.jpg',frame)
             x, img = data.transforms.presets.yolo.load_test('kang'+str(i)+'.jpg', short=512)
-            print('Shape of pre-processed image:', x.shape)
+            # print('Shape of pre-processed image:', x.shape)
             class_IDs, scores, scores = net(x)
             
             result['class_IDs'].append(class_IDs)
