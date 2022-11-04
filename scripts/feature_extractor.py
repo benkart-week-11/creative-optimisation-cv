@@ -1,21 +1,79 @@
 import cv2
 import numpy as np
+<<<<<<< HEAD:scripts/logo_detector.py
 import os
 import pickle as pkl
 
 
 class LogoDetector:
+=======
+
+import matplotlib.pyplot as plt
+
+class FeatureDetector:
+>>>>>>> b546c454bceb9cb04ebfa118ec358060ba31ab70:scripts/feature_extractor.py
     def __init__(self) -> None:
         pass
 
     def createDetector(self):
         detector = cv2.ORB_create(nfeatures=2000)
         return detector
+<<<<<<< HEAD:scripts/logo_detector.py
 
     def getFeatures(self, img):
+=======
+    
+    def getFeatures(self,img):
+>>>>>>> b546c454bceb9cb04ebfa118ec358060ba31ab70:scripts/feature_extractor.py
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         detector = self.createDetector()
         kps, descs = detector.detectAndCompute(gray, None)
+        return kps, descs
+    
+    def detectFeatures(self, query_img, train_img,threshold=0.8):
+        
+        # Convert it to grayscale
+        # Convert it to grayscale
+        query_img_bw = cv2.cvtColor(query_img,cv2.COLOR_BGR2GRAY)
+        train_img_bw = cv2.cvtColor(train_img, cv2.COLOR_BGR2GRAY)
+            
+       # Initialize the ORB detector algorithm
+        orb = self.createDetector()
+
+        # Now detect the keypoints and compute
+        # the descriptors for the query image
+        # and train image
+        queryKeypoints, queryDescriptors = orb.detectAndCompute(query_img_bw,None)
+        trainKeypoints, trainDescriptors = orb.detectAndCompute(train_img_bw,None)
+        
+        # Initialize the Matcher for matching
+        # the keypoints and then match the
+        # keypoints
+        matcher = cv2.BFMatcher()
+        matches = matcher.knnMatch(queryDescriptors,trainDescriptors,k=2)
+        
+        good = []
+        for m,n in matches:
+            if m.distance < threshold*n.distance:
+                
+                good.append(m)
+        
+        return queryKeypoints, trainKeypoints, good
+        
+    def plot_matching(self,matches,query_img,train_img,queryKeypoints,trainKeypoints):
+        # draw the matches to the final image
+        # containing both the images the drawMatches()
+        # function takes both images and keypoints
+        # and outputs the matched query image with
+        # its train image
+        final_img = cv2.drawMatches(query_img, queryKeypoints,
+        train_img, trainKeypoints, matches,None)
+
+        final_img = cv2.resize(final_img, (1000,650))
+
+        # Show the final image
+        plt.imshow(final_img)
+      
         return kps, descs, img.shape[:2][::-1]
 
     def detectFeatures(self, imagePath, train_features):
@@ -47,6 +105,7 @@ class LogoDetector:
                               ]).reshape(-1, 1, 2)
 
         m, mask = cv2.findHomography(src_pts, dst_pts, cv2.RANSAC, 5.0)
+<<<<<<< HEAD:scripts/logo_detector.py
         return m, mask
 """
 if m is not None:
@@ -95,3 +154,13 @@ cv2.drawContours(img, [box], 0, (0, 255, 0), 2)
 display the image
 cv2.imshow("Preview", img)
 """
+=======
+        if m is not None:
+            # apply perspective transform to train image corners to get a bounding box coordinates on a sample image
+            scene_points = cv2.perspectiveTransform(np.float32([(0, 0), (0, shape[0] - 1), (shape[1] - 1, shape[0] - 1), (shape[1] - 1, 0)]).reshape(-1, 1, 2), m)
+            rect = cv2.minAreaRect(scene_points)
+            # check resulting rect ratio knowing we have almost square train image
+            if rect[1][1] > 0 and 0.8 < (rect[1][0] / rect[1][1]) < 1.2:
+                return rect
+        return None
+>>>>>>> b546c454bceb9cb04ebfa118ec358060ba31ab70:scripts/feature_extractor.py

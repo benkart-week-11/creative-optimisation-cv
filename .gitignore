@@ -130,3 +130,4 @@ dmypy.json
 data
 .history
 scripts/yolov7segmentation
+env
