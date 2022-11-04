@@ -127,14 +127,24 @@ class Text_Extraction:
         #return text_df
 
 #text extraction
-list_assets = glob.glob('../Challenge_Data/Assets/*')
-# initialize the class
-extract =Text_Extraction()
-lists_text =[]
+#list_image =['_preview.png','endframe_1.png', 'cta.png']
+# list_assets = glob.glob('../Challenge_Data/Assets/*')
+# # initialize the class
+# extract =Text_Extraction()
+# lists_text =[]
 
-for ls in list_assets:
-    #print(ls)
-    if path.exists(ls+'/cta.png'):
-        lists_text.append(extract.extract_text(ls+'/cta.png', r'/usr/bin/tesseract'))
-text_df = pd.DataFrame(zip(lists_text), columns=['Text'])
-print(text_df)
+# for ls in list_assets:
+#     #print(ls)
+#     #for im in list_image:
+#     if path.exists(ls+'/_preview.png'):
+#         text_value=extract.extract_text(ls+'/_preview.png', r'/usr/bin/tesseract')
+#         lists_text.append(text_value)
+
+# text_df = pd.DataFrame(zip(lists_text), columns=['Text'])
+# #text_df['Text'].replace('\n', "").replace
+# #print(text_df)
+# text_df.replace(to_replace=[r"\\t|\\n|\\r", "\t|\n|\r"], value=["",""], regex=True, inplace=True)
+
+# text_df['Text_Char_Length'] = text_df['Text'].str.len()
+# text_df['Text_Word_Length'] = text_df['Text'].str.split().str.len()
+# print(text_df)
