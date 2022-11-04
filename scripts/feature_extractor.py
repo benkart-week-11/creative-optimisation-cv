@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+<<<<<<< HEAD
 <<<<<<< HEAD:scripts/logo_detector.py
 import os
 import pickle as pkl
@@ -8,6 +9,8 @@ import pickle as pkl
 class LogoDetector:
 =======
 
+=======
+>>>>>>> 1e0626321ae9382fe557d4e10f42181cf3e78765
 import matplotlib.pyplot as plt
 
 class FeatureDetector:
@@ -73,6 +76,7 @@ class FeatureDetector:
 
         # Show the final image
         plt.imshow(final_img)
+<<<<<<< HEAD
       
         return kps, descs, img.shape[:2][::-1]
 
@@ -164,3 +168,8 @@ cv2.imshow("Preview", img)
                 return rect
         return None
 >>>>>>> b546c454bceb9cb04ebfa118ec358060ba31ab70:scripts/feature_extractor.py
+=======
+    
+
+            
+>>>>>>> 1e0626321ae9382fe557d4e10f42181cf3e78765
