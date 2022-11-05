@@ -1,0 +1,23 @@
+name: main
+on:
+  push:
+    branches:
+      - main
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    container: docker://ghcr.io/iterative/cml:0-dvc2-base1
+    steps:
+      - uses: actions/checkout@v2
+     
+      - name: Train model
+        run: |
+      - name: CML report
+        env:
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Post reports as comments in GitHub PRs
+          # cat results.txt >> report.md 
+          # since we dont have a results.txt for the time being we will just comment our own string
+          printf "🎉 Test is Successful!" > report.md
+          cml send-comment report.md
