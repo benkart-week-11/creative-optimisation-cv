@@ -1,68 +1,71 @@
 <h1 align="center">Welcome to Creative optimisation using computer vision algorithms 👋</h1>
-<p>
-</p>
 
-## Project Description
-> Given an Ad creative the algorithms employed in this project will extract important features. After feature extraction, an ML/DL model would then able to determine which features lead to an increase in KPI. The KPIs used in this project are: Engagement Rate and Click Through Rate.This project has applications in the advertising industry where Ads need to be personalised and contain the right content.
+## Project Description :book:
+> An image of an Ad creative is used as input for a feature extraction pipeline. The pipeline extracts important features from this image. An Ad creative can contain the following elements:
+   <ol>
+   <li>Text</li>
+   <li>Colour</li>
+   <li>Objects</li>
+   <li>Logo</li>
+   <li>Faces</li>
+   <li>CTA button</li>
+   <li>Engagement button</li>
+   </ol>
 
-## Project Structure
+> Details such as the object location, emotions, button location, colour etc. are features that can all be derived from an image using the pipeline.
+After feature extraction, a regression model is able to determine which features lead to an increase in KPI. The KPIs used in this project are: 
+<ol>
+<li>Engagement Rate</li>
+<li>Click Through Rate</li>
+</ol>
+
+> This project has applications in the advertising industry where Ads need to be personalised and contain the right content.
+
+## Project Workflow Diagram :clipboard:
+![The workflow diagram for this project](https://github.com/benkart-week-11/creative-optimisation-cv/blob/main/workflow-diagram.png?raw=true)
+
+## Project Structure :file_folder:
 ```
-creative-optimisation-cv
-├─ .git
-│  ├─ HEAD
-│  ├─ branches
-│  ├─ config
-│  ├─ description
-│  ├─ hooks
-│  │  ├─ applypatch-msg.sample
-│  │  ├─ commit-msg.sample
-│  │  ├─ fsmonitor-watchman.sample
-│  │  ├─ post-update.sample
-│  │  ├─ pre-applypatch.sample
-│  │  ├─ pre-commit.sample
-│  │  ├─ pre-merge-commit.sample
-│  │  ├─ pre-push.sample
-│  │  ├─ pre-rebase.sample
-│  │  ├─ pre-receive.sample
-│  │  ├─ prepare-commit-msg.sample
-│  │  ├─ push-to-checkout.sample
-│  │  └─ update.sample
-│  ├─ index
-│  ├─ info
-│  │  └─ exclude
-│  ├─ logs
-│  │  ├─ HEAD
-│  │  └─ refs
-│  │     ├─ heads
-│  │     │  └─ main
-│  │     └─ remotes
-│  │        └─ origin
-│  │           └─ HEAD
-│  ├─ objects
-│  │  ├─ info
-│  │  └─ pack
-│  │     ├─ pack-029a52c694f6007a1c39b9ad4ded2da6cb5d4e4d.idx
-│  │     └─ pack-029a52c694f6007a1c39b9ad4ded2da6cb5d4e4d.pack
-│  ├─ packed-refs
-│  └─ refs
-│     ├─ heads
-│     │  └─ main
-│     ├─ remotes
-│     │  └─ origin
-│     │     └─ HEAD
-│     └─ tags
+├─ .DS_Store
+├─ .github
+│  └─ workflows
+│     └─ main_model.yaml
 ├─ .gitignore
 ├─ LICENSE
 ├─ README.md
+├─ models
+│  ├─ build_model.py
+│  └─ model_training.png
+├─ notebooks
+│  ├─ Aesthetic_Features.ipynb
+│  ├─ AssetExtractionExtraction.ipynb
+│  ├─ DataExtractor.ipynb
+│  ├─ FeatureExtraction.ipynb
+│  ├─ FeatureSelection.ipynb
+│  ├─ ModelDevelopment.ipynb
+│  ├─ text_detection.ipynb
+│  └─ web_scrab.ipynb
+├─ requirements.txt
 └─ scripts
-   └─ logo_detector.py
-
+   ├─ CTA_extract.ipynb
+   ├─ color_comp_texture.py
+   ├─ extract_url.ipynb
+   ├─ extractor_pipeline.py
+   ├─ feature_extractor.py
+   ├─ matching_detector.py
+   ├─ multiple_face_detect.py
+   ├─ object_detector.py
+   ├─ select_asset_id.py
+   ├─ text_detect.py
+   ├─ unzip.py
+   └─ url_to_list.ipynb
 ```
-
-## Authors 👤
- 1) Janerose Njogu
- 2) Ekubazgi Gebremariam
- 3) Degaga Wolde
- 4) Michael Getachew
- 5) Patrick Rubayita
- 6) Adijat Ojutomori
+## Authors :busts_in_silhouette:
+<ol>
+ <li><a href="https://github.com/KaydeeJR">Janerose Njogu</a></li>
+ <li><a href="https://github.com/ekubay">Ekubazgi Gebremariam</a></li>
+ <li><a href="https://github.com/degagawolde">Degaga Wolde</a></li>
+ <li><a href="https://github.com/michaelgetachew-abebe">Michael Getachew</a></li>
+ <li><a href="https://github.com/prubayita">Patrick Rubayita</a></li>
+ <li><a href="https://github.com/toussyn">Adijat Ojutomori</a></li>
+ </ol>
