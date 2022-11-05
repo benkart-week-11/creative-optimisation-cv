@@ -1,0 +1,16 @@
+glob
+pandas 
+matplotlib.pyplot
+cv2
+gluoncv 
+matplotlib
+extcolors
+colormap 
+PIL 
+pytesseract
+numpy 
+typing 
+zipfile
+tensorflow
+time
+selenium

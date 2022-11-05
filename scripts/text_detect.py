@@ -55,15 +55,7 @@ class Text_Extraction:
 
         return colors_df
     def convert_hex_to_rgb(self, hex_color: str, normalize: bool = True) -> List[str]:
-        """Converts a HEX color to a RGB color
-
-        Args:
-            hex_color (str): HEX color code to convert
-            normalize (bool, optional): Choice to normalize calculated rgb values . Defaults to True.
-
-        Returns:
-            List[str]: List of RGB values in order, normalized or not.
-        """
+     
         colors = hex_color[1:]
 
         # Convert HEX color values to RGB Values
@@ -123,18 +115,5 @@ class Text_Extraction:
         except pytesseract.TesseractNotFoundError:
             raise Exception(
                 f'Failure: Tesseract is not installed or not available in the defined path {tesseract_cmd}')
-        #print(text_df)
-        #return text_df
+ 
 
-#text extraction
-list_assets = glob.glob('../Challenge_Data/Assets/*')
-# initialize the class
-extract =Text_Extraction()
-lists_text =[]
-
-for ls in list_assets:
-    #print(ls)
-    if path.exists(ls+'/cta.png'):
-        lists_text.append(extract.extract_text(ls+'/cta.png', r'/usr/bin/tesseract'))
-text_df = pd.DataFrame(zip(lists_text), columns=['Text'])
-print(text_df)
