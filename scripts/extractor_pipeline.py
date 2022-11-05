@@ -25,6 +25,7 @@ class ExtractorPipeline():
     def __init__(self, data_folder) -> None:
         self.assets_folder = data_folder
         assets_dir_path = os.path.dirname(self.assets_folder)
+        self.CWD = os.getcwd()
         self.extracted_path = str(
             Path(assets_dir_path).parent)+"/extracted_features"
 
@@ -262,6 +263,10 @@ class ExtractorPipeline():
 
         if not os.path.isdir(colours_path):
             os.makedirs(colours_path)
+            # change to colours directory in order to save files
+            os.chdir(colours_path)
+        else:
+            os.chdir(colours_path)
 
         # instantiate text detection class
         text_detect_class = Text_Extraction()
@@ -276,7 +281,10 @@ class ExtractorPipeline():
                 dominant_colour_df = text_detect_class.identify_color_composition(
                     query_img)
                 # save each dataframe as a CSV file in the colours folder
-                file_name = colours_path+folder.split('/')[-1]+'_preview.csv'
+                file_name = folder.split('/')[-1]+'_preview.csv'
                 dominant_colour_df.to_csv(file_name, index=False)
-            else:
-                logging.error("Cannot find preview file")
+        
+        # change directory back to previous working directory
+        os.chdir(self.CWD)    
+        #else:
+             #   logging.error("Cannot find preview file")
