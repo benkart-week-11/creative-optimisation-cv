@@ -1,0 +1,55 @@
+Visual Studio Code (1.73.0, ssh-remote, desktop)
+Jupyter Extension Version: 2022.9.1202862440.
+Python Extension Version: 2022.18.1.
+Workspace folder /home/patrick_rubayita
+info 16:32:58.031: ZMQ install verified.
+User belongs to experiment group 'jupyterTestcf'
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+info 16:32:58.371: LSP Notebooks experiment is disabled -- not in treatment group
+info 16:32:59.558: Preferred Remote kernel for /home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb is undefined
+info 16:33:00.066: Preferred Remote kernel for /home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb is undefined
+info 16:33:00.067: Find preferred kernel for /home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb with metadata {"kernelspec":{"display_name":"Python 3.10.6","language":"python","name":"python3"},"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.9.13"},"orig_nbformat":4,"vscode":{"interpreter":{"hash":"588026dc0a0693bc2e2f2499b6a59c0628249da82b6c68440ef2bcf57754a22d"}}} & preferred interpreter /bin/python3
+info 16:33:00.082: Preferred Remote kernel for /home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb is undefined
+info 16:33:00.082: Preferred kernel .jvsc74a57bd0916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1./bin/python3./bin/python3.-m#ipykernel_launcher is exact match or top match for non python kernels, (false, [object Object], false, false)
+info 16:33:00.082: PreferredConnection: .jvsc74a57bd0916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1./bin/python3./bin/python3.-m#ipykernel_launcher found for NotebookDocument: /home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb
+info 16:33:00.186: Starting Jupyter Session startUsingPythonInterpreter, .jvsc74a57bd0916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1./bin/python3./bin/python3.-m#ipykernel_launcher (Python Path: , EnvType: Global, EnvName: '', Version: 3.8.10) for '/home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb' (disableUI=true)
+info 16:33:00.187: Computing working directory for resource '/home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb'
+info 16:33:00.418: Registering dummy command feature
+info 16:33:01.749: Got empty env vars with python /bin/python3 in 1685ms
+info 16:33:01.751: Got env vars ourselves faster /bin/python3 with env var count 52 in 1688ms
+info 16:33:01.751: Got env vars ourselves faster /bin/python3 with env var count 52 in 1556ms
+info 16:33:01.751: Got env vars ourselves faster /bin/python3 with env var count 52 in 1548ms
+info 16:33:01.751: Got env vars ourselves faster /bin/python3 with env var count 52 in 1548ms
+info 16:33:01.762: Process Execution: > /bin/python3 -m pip list
+> /bin/python3 -m pip list
+info 16:33:01.771: Process Execution: > /bin/python3 -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+> /bin/python3 -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+info 16:33:01.783: Process Execution: > /bin/python3 -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"601d5d73-a447-42f9-bfe3-b77ab8e6a154" --shell=9002 --transport="tcp" --iopub=9004 --f=/home/patrick_rubayita/.local/share/jupyter/runtime/kernel-v2-179409Bk1aF4OfzSuV.json
+> /bin/python3 -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"601d5d73-a447-42f9-bfe3-b77ab8e6a154" --shell=9002 --transport="tcp" --iopub=9004 --f=/home/patrick_rubayita/.local/share/jupyter/runtime/kernel-v2-179409Bk1aF4OfzSuV.json
+info 16:33:01.783: Process Execution: cwd: ~/creative-optimisation-cv/notebooks
+cwd: ~/creative-optimisation-cv/notebooks
+info 16:33:01.796: Got empty env vars with python /bin/python3 in 1601ms
+info 16:33:01.796: Got empty env vars with python /bin/python3 in 1593ms
+info 16:33:01.797: Got empty env vars with python /bin/python3 in 1594ms
+info 16:33:02.072: ipykernel version & path 6.17.0, ~/.local/lib/python3.8/site-packages/ipykernel/__init__.py for /bin/python3
+info 16:33:02.918: Kernel Output: To connect another client to this kernel, use: --existing kernel-v2-179409Bk1aF4OfzSuV.json
+
+info 16:33:03.049: Started Kernel Python 3.8.10 64-bit (pid: 179519)
+info 16:33:03.053: UpdateWorkingDirectoryAndPath in Kernel
+info 16:33:03.208: Got env vars ourselves faster /bin/python3 with env var count 52 in 1ms
+info 16:33:03.217: Process Execution: > /bin/python3 ~/.vscode-server/extensions/ms-toolsai.jupyter-2022.9.1202862440/pythonFiles/printJupyterDataDir.py
+> /bin/python3 ~/.vscode-server/extensions/ms-toolsai.jupyter-2022.9.1202862440/pythonFiles/printJupyterDataDir.py
+info 16:33:04.908: Got empty env vars with python /bin/python3 in 1701ms
+info 16:34:14.902: Cancel all remaining cells true || Error || undefined
+info 16:34:31.110: Cancel all remaining cells true || Error || undefined
+info 16:36:23.528: Cancel all remaining cells true || Error || undefined
+info 16:38:36.656: Cancel all remaining cells true || Error || undefined
+info 16:45:03.562: Shutting down notebooks for c9998fa1-97ad-4850-a69f-cd6973b863eb
+info 16:45:03.563: Disposing HostJupyterExecution 82d25404-0a06-49b0-9777-88d17a0c30a1
+info 16:45:03.563: Disposing super HostJupyterExecution 82d25404-0a06-49b0-9777-88d17a0c30a1
+info 16:45:03.563: Dispose Kernel '/home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb' associated with '/home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb'
+info 16:45:03.565: Dispose Kernel process 179519.
+info 16:45:03.587: Disposing HostJupyterExecution 82d25404-0a06-49b0-9777-88d17a0c30a1
+info 16:45:03.587: Finished disposing HostJupyterExecution  82d25404-0a06-49b0-9777-88d17a0c30a1
+info 16:45:03.591: Cleaning up server cache 82d25404-0a06-49b0-9777-88d17a0c30a1
+info 16:45:03.609: Finished disposing HostJupyterExecution  82d25404-0a06-49b0-9777-88d17a0c30a1

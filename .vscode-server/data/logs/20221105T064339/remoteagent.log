@@ -1,0 +1,21 @@
+2022-11-05 06:43:39.247 [info] Extension host agent started.
+2022-11-05 06:43:40.499 [info] [127.0.0.1][6cbad1df][ManagementConnection] New connection established.
+2022-11-05 06:43:41.226 [info] [127.0.0.1][952f5c61][ExtensionHostConnection] New connection established.
+2022-11-05 06:43:41.231 [info] [127.0.0.1][952f5c61][ExtensionHostConnection] <4009> Launched Extension Host Process.
+2022-11-05 06:43:56.970 [info] [127.0.0.1][952f5c61][ExtensionHostConnection] <4009> Starting WebSocket: RAW/api/kernels/81a058a2-696a-49a5-bbc7-059d6b3ac7b5
+
+2022-11-05 06:45:28.449 [info] [127.0.0.1][952f5c61][ExtensionHostConnection] <4009> Starting WebSocket: RAW/api/kernels/3b688e34-05c5-47cd-b267-572a425448a2
+
+2022-11-05 07:06:13.513 [info] [127.0.0.1][6cbad1df][ManagementConnection] The client has reconnected.
+2022-11-05 07:06:14.371 [info] [127.0.0.1][952f5c61][ExtensionHostConnection] The client has reconnected.
+2022-11-05 07:11:43.420 [info] [127.0.0.1][6cbad1df][ManagementConnection] The client has reconnected.
+2022-11-05 07:11:44.502 [info] [127.0.0.1][952f5c61][ExtensionHostConnection] The client has reconnected.
+2022-11-05 07:47:19.796 [info] [127.0.0.1][6cbad1df][ManagementConnection] The client has reconnected.
+2022-11-05 07:47:20.803 [info] [127.0.0.1][952f5c61][ExtensionHostConnection] The client has reconnected.
+2022-11-05 08:59:51.484 [info] [127.0.0.1][952f5c61][ExtensionHostConnection] The client has reconnected.
+2022-11-05 09:32:06.140 [info] [127.0.0.1][6cbad1df][ManagementConnection] The client has reconnected.
+2022-11-05 09:32:07.033 [info] [127.0.0.1][952f5c61][ExtensionHostConnection] The client has reconnected.
+2022-11-05 09:37:05.061 [info] [127.0.0.1][6cbad1df][ManagementConnection] The client has reconnected.
+2022-11-05 09:37:05.801 [info] [127.0.0.1][952f5c61][ExtensionHostConnection] The client has reconnected.
+2022-11-05 10:04:07.826 [info] [127.0.0.1][6cbad1df][ManagementConnection] The client has reconnected.
+2022-11-05 10:04:08.431 [info] [127.0.0.1][952f5c61][ExtensionHostConnection] The client has reconnected.

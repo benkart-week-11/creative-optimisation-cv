@@ -1,0 +1,38 @@
+[Info  - 5:02:29 PM] (211775) Pylance language server 2022.11.10 (pyright 4e50162d) starting
+[Info  - 5:02:29 PM] (211775) Server root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist
+[Info  - 5:02:29 PM] (211775) Starting service instance "patrick_rubayita"
+[Info  - 5:02:29 PM] (211775) Notebook support: LSP
+[Info  - 5:02:29 PM] (211775) Interactive window support: LSP
+[Info  - 5:02:29 PM] (211775) No configuration file found.
+[Info  - 5:02:29 PM] (211775) No pyproject.toml file found.
+[Info  - 5:02:29 PM] (211775) Setting pythonPath for service "patrick_rubayita": "/bin/python3"
+[Warn  - 5:02:29 PM] (211775) stubPath /home/patrick_rubayita/typings is not a valid directory.
+[Info  - 5:02:29 PM] (211775) Assuming Python version 3.8
+[Info  - 5:02:29 PM] (211775) Assuming Python platform Linux
+[Info  - 5:02:29 PM] (211775) Searching for source files
+[Info  - 5:02:29 PM] (211775) Found 3 source files
+[Info  - 5:02:29 PM] (211775) Starting service instance "/home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb"
+[Info  - 5:02:29 PM] (211775) No configuration file found.
+[Info  - 5:02:29 PM] (211775) No pyproject.toml file found.
+[Info  - 5:02:29 PM] (211775) Setting pythonPath for service "/home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb": "/bin/python3"
+[Warn  - 5:02:29 PM] (211775) stubPath /home/patrick_rubayita/typings is not a valid directory.
+[Info  - 5:02:29 PM] (211775) Assuming Python version 3.8
+[Info  - 5:02:29 PM] (211775) Assuming Python platform Linux
+[Info  - 5:02:29 PM] (211775) Searching for source files
+[Info  - 5:02:29 PM] (211775) Found 3 source files
+[Info  - 5:02:29 PM] (211775) Background analysis(1) root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist
+[Info  - 5:02:29 PM] (211775) Background analysis(1) started
+[Info  - 5:02:30 PM] (211775) Background analysis(2) root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist
+[Info  - 5:02:30 PM] (211775) Background analysis(2) started
+[Info  - 5:02:30 PM] (211775) Indexer background runner(3) root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist (index)
+[Info  - 5:02:30 PM] (211775) Indexing(3) started
+[Info  - 5:02:32 PM] (211775) [IDX(3)] Long operation: index libraries /home/patrick_rubayita (2219ms)
+[Info  - 5:02:32 PM] (211775) Indexer done(3). indexed 501 files
+[Info  - 5:02:52 PM] (211775) Searching for source files
+[Info  - 5:02:52 PM] (211775) Found 3 source files
+[Info  - 5:02:52 PM] (211775) Searching for source files
+[Info  - 5:02:52 PM] (211775) Found 3 source files
+[Info  - 5:03:16 PM] (211775) Searching for source files
+[Info  - 5:03:16 PM] (211775) Found 3 source files
+[Info  - 5:03:16 PM] (211775) Searching for source files
+[Info  - 5:03:16 PM] (211775) Found 3 source files

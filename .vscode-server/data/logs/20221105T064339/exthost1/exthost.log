@@ -1,0 +1,419 @@
+2022-11-05 06:43:45.209 [info] Extension host with pid 4009 started
+2022-11-05 06:43:45.219 [info] Lock '/home/patrick_rubayita/.vscode-server/data/User/workspaceStorage/436363c3b68b43d7cbee73aa1c365e8f/vscode.lock': Lock acquired.
+2022-11-05 06:43:45.922 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebook:jupyter-notebook}'
+2022-11-05 06:43:45.923 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2022-11-05 06:43:46.883 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2022-11-05 06:43:46.883 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-11-05 06:43:47.501 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-11-05 06:43:47.501 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-11-05 06:43:47.501 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-11-05 06:43:47.502 [info] Eager extensions activated
+2022-11-05 06:43:48.575 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2022-11-05 06:43:48.575 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2022-11-05 06:43:48.575 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2022-11-05 06:43:48.575 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'onNotebook:*'
+2022-11-05 06:43:49.534 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2022-11-05 06:43:52.253 [info] ExtensionService#_doActivateExtension ms-python.isort, startup: false, activationEvent: 'onLanguage:python'
+2022-11-05 06:43:52.254 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2022-11-05 06:43:54.668 [error] [ms-python.isort] provider FAILED
+2022-11-05 06:43:54.668 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 06:43:58.602 [error] [ms-python.isort] provider FAILED
+2022-11-05 06:43:58.602 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 06:45:22.839 [error] [ms-python.isort] provider FAILED
+2022-11-05 06:45:22.839 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 06:45:23.667 [error] [ms-python.isort] provider FAILED
+2022-11-05 06:45:23.667 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 06:47:22.862 [error] [ms-python.isort] provider FAILED
+2022-11-05 06:47:22.862 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 06:47:31.054 [error] [ms-python.isort] provider FAILED
+2022-11-05 06:47:31.054 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 06:47:31.407 [error] [ms-python.isort] provider FAILED
+2022-11-05 06:47:31.407 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 06:47:33.911 [error] [ms-python.isort] provider FAILED
+2022-11-05 06:47:33.912 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 06:47:34.127 [error] [ms-python.isort] provider FAILED
+2022-11-05 06:47:34.127 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 06:47:34.148 [error] [ms-python.isort] provider FAILED
+2022-11-05 06:47:34.148 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 06:47:34.149 [error] [ms-python.isort] provider FAILED
+2022-11-05 06:47:34.149 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 06:47:37.244 [error] [ms-python.isort] provider FAILED
+2022-11-05 06:47:37.244 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 06:47:39.145 [error] [ms-python.isort] provider FAILED
+2022-11-05 06:47:39.145 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at runNextTicks (node:internal/process/task_queues:61:5)
+	at processImmediate (node:internal/timers:437:9)
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 06:48:03.819 [error] [ms-python.isort] provider FAILED
+2022-11-05 06:48:03.819 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 06:49:01.682 [error] [ms-python.isort] provider FAILED
+2022-11-05 06:49:01.683 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 06:49:01.893 [error] [ms-python.isort] provider FAILED
+2022-11-05 06:49:01.894 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 06:49:06.979 [error] [ms-python.isort] provider FAILED
+2022-11-05 06:49:06.979 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 06:49:07.173 [error] [ms-python.isort] provider FAILED
+2022-11-05 06:49:07.174 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:38:14.056 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:38:14.056 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:38:16.660 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:38:16.660 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:38:18.842 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:38:18.842 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:38:19.639 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:38:19.639 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:38:21.870 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:38:21.870 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:39:16.889 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:39:16.889 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:39:17.000 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:39:17.000 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:39:18.419 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:39:18.419 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:39:18.651 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:39:18.651 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:39:26.707 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:39:26.707 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:39:27.733 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:39:27.733 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:39:28.252 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:39:28.252 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:45:21.212 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:45:21.212 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:45:22.614 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:45:22.614 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:45:23.216 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:45:23.216 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:45:23.978 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:45:23.978 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:45:25.573 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:45:25.573 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:45:26.103 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:45:26.103 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:45:29.613 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:45:29.613 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at runMicrotasks (<anonymous>)
+	at runNextTicks (node:internal/process/task_queues:61:5)
+	at processImmediate (node:internal/timers:437:9)
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:45:31.761 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:45:31.761 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:45:32.833 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:45:32.833 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:45:34.465 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:45:34.465 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:45:35.468 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:45:35.468 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:45:36.370 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:45:36.370 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:45:37.744 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:45:37.744 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:46:14.880 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:46:14.880 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at runMicrotasks (<anonymous>)
+	at runNextTicks (node:internal/process/task_queues:61:5)
+	at processImmediate (node:internal/timers:437:9)
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:46:14.881 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:46:14.881 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:46:14.887 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:46:14.887 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at runMicrotasks (<anonymous>)
+	at runNextTicks (node:internal/process/task_queues:61:5)
+	at processImmediate (node:internal/timers:437:9)
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:46:14.888 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:46:14.888 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:46:18.469 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:46:18.469 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:46:22.458 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:46:22.458 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:46:24.569 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:46:24.569 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:46:26.311 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:46:26.311 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:46:27.686 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:46:27.686 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:46:31.623 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:46:31.623 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:46:33.722 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:46:33.722 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:46:35.949 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:46:35.949 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:47:12.872 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:47:12.872 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:47:15.349 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:47:15.349 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:47:15.544 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:47:15.544 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:47:17.860 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:47:17.860 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:47:21.104 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:47:21.104 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:47:21.288 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:47:21.288 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:52:50.222 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:52:50.222 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:52:50.780 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:52:50.780 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 09:52:50.980 [error] [ms-python.isort] provider FAILED
+2022-11-05 09:52:50.980 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 10:04:08.819 [error] [ms-python.isort] provider FAILED
+2022-11-05 10:04:08.819 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-05 10:09:40.660 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000

@@ -1,0 +1,49 @@
+[Info  - 4:33:00 PM] (179483) Pylance language server 2022.11.10 (pyright 4e50162d) starting
+[Info  - 4:33:00 PM] (179483) Server root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist
+[Info  - 4:33:00 PM] (179483) Starting service instance "patrick_rubayita"
+[Info  - 4:33:00 PM] (179483) Notebook support: Legacy
+[Info  - 4:33:00 PM] (179483) Interactive window support: Legacy
+[Info  - 4:33:00 PM] (179483) No configuration file found.
+[Info  - 4:33:00 PM] (179483) No pyproject.toml file found.
+[Info  - 4:33:00 PM] (179483) Setting pythonPath for service "patrick_rubayita": "/bin/python3"
+[Warn  - 4:33:00 PM] (179483) stubPath /home/patrick_rubayita/typings is not a valid directory.
+[Info  - 4:33:00 PM] (179483) Assuming Python version 3.8
+[Info  - 4:33:00 PM] (179483) Assuming Python platform Linux
+[Info  - 4:33:00 PM] (179483) Searching for source files
+[Info  - 4:33:00 PM] (179483) Found 3 source files
+[Info  - 4:33:00 PM] (179483) Background analysis(1) root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist
+[Info  - 4:33:00 PM] (179483) Background analysis(1) started
+[Info  - 4:33:00 PM] (179483) Indexer background runner(2) root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist (index)
+[Info  - 4:33:00 PM] (179483) Indexing(2) started
+[Info  - 4:33:01 PM] (179483) Searching for source files
+[Info  - 4:33:01 PM] (179483) Found 3 source files
+[Info  - 4:33:03 PM] (179483) Indexer done(2). indexed 499 files
+[Info  - 4:33:45 PM] (179483) Searching for source files
+[Info  - 4:33:45 PM] (179483) Found 3 source files
+[Info  - 4:34:01 PM] (179483) Searching for source files
+[Info  - 4:34:01 PM] (179483) Found 3 source files
+[Info  - 4:36:09 PM] (179483) Searching for source files
+[Info  - 4:36:09 PM] (179483) Found 3 source files
+[Info  - 4:36:10 PM] (179483) Searching for source files
+[Info  - 4:36:10 PM] (179483) Found 3 source files
+[Info  - 4:36:12 PM] (179483) Searching for source files
+[Info  - 4:36:12 PM] (179483) Found 3 source files
+[Info  - 4:36:12 PM] (179483) Searching for source files
+[Info  - 4:36:12 PM] (179483) Found 3 source files
+[Info  - 4:36:13 PM] (179483) Searching for source files
+[Info  - 4:36:13 PM] (179483) Found 3 source files
+[Info  - 4:37:31 PM] (179483) Searching for source files
+[Info  - 4:37:31 PM] (179483) Found 3 source files
+[Info  - 4:37:32 PM] (179483) Searching for source files
+[Info  - 4:37:32 PM] (179483) Found 3 source files
+[Info  - 4:37:33 PM] (179483) Searching for source files
+[Info  - 4:37:33 PM] (179483) Found 3 source files
+[Info  - 4:37:34 PM] (179483) Searching for source files
+[Info  - 4:37:34 PM] (179483) Found 3 source files
+[Info  - 4:37:36 PM] (179483) Searching for source files
+[Info  - 4:37:36 PM] (179483) Found 3 source files
+[Info  - 4:37:40 PM] (179483) Searching for source files
+[Info  - 4:37:40 PM] (179483) Found 3 source files
+[Info  - 4:38:10 PM] (179483) Searching for source files
+[Info  - 4:38:10 PM] (179483) Found 3 source files
+[Info  - 4:38:12 PM] (179483) [BG(1)] Long operation: analyzing: /home/patrick_rubayita/creative-optimisation-cv/notebooks/_NotebookConcat_9fda13ef25fe.py (2008ms)

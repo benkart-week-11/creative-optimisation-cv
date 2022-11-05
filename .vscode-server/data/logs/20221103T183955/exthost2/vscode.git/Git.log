@@ -1,0 +1,17 @@
+2022-11-03 18:42:07.119 [info] Validating found git in: git
+2022-11-03 18:42:07.119 [info] Using git 2.25.1 from git
+2022-11-03 18:42:07.119 [info] > git rev-parse --show-toplevel [7ms]
+2022-11-03 18:42:07.119 [info] fatal: detected dubious ownership in repository at '/home/creative-optimisation-cv'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/creative-optimisation-cv
+2022-11-03 18:42:07.119 [info] > git rev-parse --show-toplevel [1ms]
+2022-11-03 18:42:07.119 [info] fatal: detected dubious ownership in repository at '/home/creative-optimisation-cv'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/creative-optimisation-cv
+2022-11-03 18:42:32.657 [info] > git rev-parse --show-toplevel [1ms]
+2022-11-03 18:42:32.657 [info] fatal: detected dubious ownership in repository at '/home/creative-optimisation-cv'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/creative-optimisation-cv

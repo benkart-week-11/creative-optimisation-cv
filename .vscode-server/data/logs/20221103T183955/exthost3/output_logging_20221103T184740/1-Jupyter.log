@@ -1,0 +1,355 @@
+Visual Studio Code (1.73.0, ssh-remote, desktop)
+Jupyter Extension Version: 2022.9.1202862440.
+Python Extension Version: 2022.18.0.
+Workspace folder /home/patrick_rubayita
+info 18:49:08.383: ZMQ install verified.
+User belongs to experiment group 'jupyterTestcf'
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+info 18:49:08.767: LSP Notebooks experiment is disabled -- not in treatment group
+info 18:49:09.656: Preferred Remote kernel for /home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb is undefined
+info 18:49:09.727: Preferred Remote kernel for /home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb is undefined
+info 18:49:09.728: Find preferred kernel for /home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb with metadata {"kernelspec":{"display_name":"Python 3.10.6","language":"python","name":"python3"},"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.9.13"},"orig_nbformat":4,"vscode":{"interpreter":{"hash":"588026dc0a0693bc2e2f2499b6a59c0628249da82b6c68440ef2bcf57754a22d"}}} & preferred interpreter /bin/python3
+info 18:49:09.740: Preferred Remote kernel for /home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb is undefined
+info 18:49:09.740: Preferred kernel .jvsc74a57bd0916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1./bin/python3./bin/python3.-m#ipykernel_launcher is exact match or top match for non python kernels, (false, [object Object], false, false)
+info 18:49:09.741: PreferredConnection: .jvsc74a57bd0916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1./bin/python3./bin/python3.-m#ipykernel_launcher found for NotebookDocument: /home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb
+info 18:49:10.067: Registering dummy command feature
+info 18:49:11.736: Got empty env vars with python /bin/python3 in 2011ms
+info 18:49:11.736: Got env vars ourselves faster /bin/python3 with env var count 53 in 2012ms
+info 18:49:11.748: Process Execution: > /bin/python3 -m pip list
+> /bin/python3 -m pip list
+info 18:49:13.875: Starting Jupyter Session startUsingPythonInterpreter, .jvsc74a57bd0916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1./bin/python3./bin/python3.-m#ipykernel_launcher (Python Path: , EnvType: Global, EnvName: '', Version: 3.10.6) for '/home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb' (disableUI=false)
+info 18:49:13.876: Computing working directory for resource '/home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb'
+info 18:49:13.881: Got env vars ourselves faster /bin/python3 with env var count 53 in 3ms
+info 18:49:13.892: Process Execution: > /bin/python3 -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+> /bin/python3 -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+info 18:49:13.900: Got env vars ourselves faster /bin/python3 with env var count 53 in 2ms
+info 18:49:13.900: Got env vars ourselves faster /bin/python3 with env var count 53 in 1ms
+info 18:49:13.910: Process Execution: > /bin/python3 -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"cff95587-2057-4586-8476-9e59978c98d1" --shell=9002 --transport="tcp" --iopub=9004 --f=/home/patrick_rubayita/.local/share/jupyter/runtime/kernel-v2-617561REabqbApIEsL.json
+> /bin/python3 -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"cff95587-2057-4586-8476-9e59978c98d1" --shell=9002 --transport="tcp" --iopub=9004 --f=/home/patrick_rubayita/.local/share/jupyter/runtime/kernel-v2-617561REabqbApIEsL.json
+info 18:49:13.910: Process Execution: cwd: ~/creative-optimisation-cv/notebooks
+cwd: ~/creative-optimisation-cv/notebooks
+warn 18:49:13.923: StdErr from Kernel Process /bin/python3: No module named ipykernel_launcher
+
+error 18:49:13.926: Disposing kernel process due to an error [o [Error]: The kernel died. Error: /bin/python3: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+	at ChildProcess.<anonymous> (/home/patrick_rubayita/.vscode-server/extensions/ms-toolsai.jupyter-2022.9.1202862440/out/extension.node.js:2:2194951)
+	at ChildProcess.emit (node:events:538:35)
+	at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12)] {
+  category: 'kerneldied',
+  kernelConnectionMetadata: {
+    kind: 'startUsingPythonInterpreter',
+    kernelSpec: {
+      specFile: '/home/pabro/.vscode/extensions/ms-toolsai.jupyter-2022.9.1202862440/temp/jupyter/kernels/python3106jvsc74a57bd0916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1/kernel.json',
+      interpreterPath: '/bin/python3',
+      isRegisteredByVSC: 'registeredByNewVersionOfExt',
+      name: 'python3106jvsc74a57bd0916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1',
+      argv: [Array],
+      language: 'python',
+      executable: 'python',
+      display_name: 'Python 3.10.6 64-bit',
+      metadata: [Object],
+      env: {}
+    },
+    interpreter: {
+      id: '/bin/python3',
+      sysPrefix: '/usr',
+      envType: 'Global',
+      envName: '',
+      architecture: 3,
+      sysVersion: '3.10.6 (main, Aug 10 2022, 11:40:04) [GCC 11.3.0]',
+      version: [Object],
+      displayName: 'Python 3.10.6 64-bit',
+      detailedDisplayName: 'Python 3.10.6 64-bit',
+      uri: [h]
+    },
+    id: '.jvsc74a57bd0916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1./bin/python3./bin/python3.-m#ipykernel_launcher'
+  },
+  exitCode: 1,
+  stdErr: '/bin/python3: No module named ipykernel_launcher\n'
+}
+error 18:49:13.928: /bin/python3: No module named ipykernel_launcher
+
+info 18:49:13.928: Dispose Kernel process 617682.
+error 18:49:13.930: Kernel Launcher. launch, Class name = r, completed in 52ms, has a falsy return value, Arg 1: {"kind":"startUsingPythonInterpreter","kernelSpec":{"specFile":"/home/pabro/.vscode/extensions/ms-toolsai.jupyter-2022.9.1202862440/temp/jupyter/kernels/python3106jvsc74a57bd0916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1/kernel.json","interpreterPath":"/bin/python3","isRegisteredByVSC":"registeredByNewVersionOfExt","name":"python3106jvsc74a57bd0916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1","argv":["python","-m","ipykernel_launcher","-f","{connection_file}"],"language":"python","executable":"python","display_name":"Python 3.10.6 64-bit","metadata":{"interpreter":{"path":"/bin/python3"}},"env":{}},"interpreter":{"id":"/bin/python3","sysPrefix":"/usr","envType":"Global","envName":"","architecture":3,"sysVersion":"3.10.6 (main, Aug 10 2022, 11:40:04) [GCC 11.3.0]","version":{"raw":"3.10.6","major":3,"minor":10,"patch":6,"build":[],"prerelease":["final","0"]},"displayName":"Python 3.10.6 64-bit","detailedDisplayName":"Python 3.10.6 64-bit","uri":{"$mid":1,"fsPath":"/bin/python3","external":"file:///bin/python3","path":"/bin/python3","scheme":"file"}},"id":".jvsc74a57bd0916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1./bin/python3./bin/python3.-m#ipykernel_launcher"}, Arg 2: 60000, Arg 3: "~/creative-optimisation-cv/notebooks/DataExtractor.ipynb", Arg 4: "~/creative-optimisation-cv/notebooks", Arg 5: <argument cannot be serialized for logging> [o [Error]: The kernel died. Error: /bin/python3: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+	at ChildProcess.<anonymous> (/home/patrick_rubayita/.vscode-server/extensions/ms-toolsai.jupyter-2022.9.1202862440/out/extension.node.js:2:2194951)
+	at ChildProcess.emit (node:events:538:35)
+	at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12)] {
+  category: 'kerneldied',
+  kernelConnectionMetadata: {
+    kind: 'startUsingPythonInterpreter',
+    kernelSpec: {
+      specFile: '/home/pabro/.vscode/extensions/ms-toolsai.jupyter-2022.9.1202862440/temp/jupyter/kernels/python3106jvsc74a57bd0916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1/kernel.json',
+      interpreterPath: '/bin/python3',
+      isRegisteredByVSC: 'registeredByNewVersionOfExt',
+      name: 'python3106jvsc74a57bd0916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1',
+      argv: [Array],
+      language: 'python',
+      executable: 'python',
+      display_name: 'Python 3.10.6 64-bit',
+      metadata: [Object],
+      env: {}
+    },
+    interpreter: {
+      id: '/bin/python3',
+      sysPrefix: '/usr',
+      envType: 'Global',
+      envName: '',
+      architecture: 3,
+      sysVersion: '3.10.6 (main, Aug 10 2022, 11:40:04) [GCC 11.3.0]',
+      version: [Object],
+      displayName: 'Python 3.10.6 64-bit',
+      detailedDisplayName: 'Python 3.10.6 64-bit',
+      uri: [h]
+    },
+    id: '.jvsc74a57bd0916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1./bin/python3./bin/python3.-m#ipykernel_launcher'
+  },
+  exitCode: 1,
+  stdErr: '/bin/python3: No module named ipykernel_launcher\n'
+}
+error 18:49:13.931: Failed to connect raw kernel session: Error: The kernel died. Error: /bin/python3: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+warn 18:49:13.934: Error occurred while trying to start the kernel, options.disableUI=false [o [Error]: The kernel died. Error: /bin/python3: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+	at ChildProcess.<anonymous> (/home/patrick_rubayita/.vscode-server/extensions/ms-toolsai.jupyter-2022.9.1202862440/out/extension.node.js:2:2194951)
+	at ChildProcess.emit (node:events:538:35)
+	at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12)] {
+  category: 'kerneldied',
+  kernelConnectionMetadata: {
+    kind: 'startUsingPythonInterpreter',
+    kernelSpec: {
+      specFile: '/home/pabro/.vscode/extensions/ms-toolsai.jupyter-2022.9.1202862440/temp/jupyter/kernels/python3106jvsc74a57bd0916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1/kernel.json',
+      interpreterPath: '/bin/python3',
+      isRegisteredByVSC: 'registeredByNewVersionOfExt',
+      name: 'python3106jvsc74a57bd0916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1',
+      argv: [Array],
+      language: 'python',
+      executable: 'python',
+      display_name: 'Python 3.10.6 64-bit',
+      metadata: [Object],
+      env: {}
+    },
+    interpreter: {
+      id: '/bin/python3',
+      sysPrefix: '/usr',
+      envType: 'Global',
+      envName: '',
+      architecture: 3,
+      sysVersion: '3.10.6 (main, Aug 10 2022, 11:40:04) [GCC 11.3.0]',
+      version: [Object],
+      displayName: 'Python 3.10.6 64-bit',
+      detailedDisplayName: 'Python 3.10.6 64-bit',
+      uri: [h]
+    },
+    id: '.jvsc74a57bd0916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1./bin/python3./bin/python3.-m#ipykernel_launcher'
+  },
+  exitCode: 1,
+  stdErr: '/bin/python3: No module named ipykernel_launcher\n'
+}
+warn 18:49:13.935: Kernel Error, context = start [o [Error]: The kernel died. Error: /bin/python3: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+	at ChildProcess.<anonymous> (/home/patrick_rubayita/.vscode-server/extensions/ms-toolsai.jupyter-2022.9.1202862440/out/extension.node.js:2:2194951)
+	at ChildProcess.emit (node:events:538:35)
+	at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12)] {
+  category: 'kerneldied',
+  kernelConnectionMetadata: {
+    kind: 'startUsingPythonInterpreter',
+    kernelSpec: {
+      specFile: '/home/pabro/.vscode/extensions/ms-toolsai.jupyter-2022.9.1202862440/temp/jupyter/kernels/python3106jvsc74a57bd0916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1/kernel.json',
+      interpreterPath: '/bin/python3',
+      isRegisteredByVSC: 'registeredByNewVersionOfExt',
+      name: 'python3106jvsc74a57bd0916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1',
+      argv: [Array],
+      language: 'python',
+      executable: 'python',
+      display_name: 'Python 3.10.6 64-bit',
+      metadata: [Object],
+      env: {}
+    },
+    interpreter: {
+      id: '/bin/python3',
+      sysPrefix: '/usr',
+      envType: 'Global',
+      envName: '',
+      architecture: 3,
+      sysVersion: '3.10.6 (main, Aug 10 2022, 11:40:04) [GCC 11.3.0]',
+      version: [Object],
+      displayName: 'Python 3.10.6 64-bit',
+      detailedDisplayName: 'Python 3.10.6 64-bit',
+      uri: [h]
+    },
+    id: '.jvsc74a57bd0916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1./bin/python3./bin/python3.-m#ipykernel_launcher'
+  },
+  exitCode: 1,
+  stdErr: '/bin/python3: No module named ipykernel_launcher\n'
+}
+info 18:49:13.937: Got env vars ourselves faster /bin/python3 with env var count 53 in 1ms
+info 18:49:13.949: Process Execution: > /bin/python3 -c "import ipykernel"
+> /bin/python3 -c "import ipykernel"
+info 18:49:14.092: installMissingDependencies /bin/python3, ui.disabled=false for resource '/home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb'
+info 18:49:14.094: Got env vars ourselves faster /bin/python3 with env var count 53 in 1ms
+info 18:49:14.101: Process Execution: > /bin/python3 -c "import ipykernel"
+> /bin/python3 -c "import ipykernel"
+info 18:49:14.240: Got env vars ourselves faster /bin/python3 with env var count 53 in 1ms
+info 18:49:14.247: Process Execution: > /bin/python3 -c "import pip"
+> /bin/python3 -c "import pip"
+info 18:49:38.611: Process Execution: > /bin/python3 -c "import pip"
+> /bin/python3 -c "import pip"
+info 18:49:38.627: Got env vars ourselves faster /bin/python3 with env var count 53 in 1ms
+info 18:49:38.632: Process Execution: > /bin/python3 -m pip install -U --user ipykernel
+> /bin/python3 -m pip install -U --user ipykernel
+info 18:49:39.593: Collecting ipykernel
+
+info 18:49:39.610:   Downloading ipykernel-6.17.0-py3-none-any.whl (138 kB)
+
+info 18:49:39.869: Collecting psutil
+
+info 18:49:39.872:   Downloading psutil-5.9.3-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (295 kB)
+
+info 18:49:39.990: Collecting tornado>=6.1
+
+info 18:49:39.995:   Downloading tornado-6.2-cp37-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (423 kB)
+
+info 18:49:40.060: Collecting matplotlib-inline>=0.1
+
+info 18:49:40.067:   Downloading matplotlib_inline-0.1.6-py3-none-any.whl (9.4 kB)
+
+info 18:49:40.465: Collecting pyzmq>=17
+
+info 18:49:40.472:   Downloading pyzmq-24.0.1-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.1 MB)
+
+info 18:49:40.588: Collecting packaging
+
+info 18:49:40.590:   Downloading packaging-21.3-py3-none-any.whl (40 kB)
+
+info 18:49:40.651: Collecting traitlets>=5.1.0
+
+info 18:49:40.654:   Downloading traitlets-5.5.0-py3-none-any.whl (107 kB)
+
+info 18:49:40.781: Collecting ipython>=7.23.1
+
+info 18:49:40.784:   Downloading ipython-8.6.0-py3-none-any.whl (761 kB)
+
+info 18:49:40.947: Collecting jupyter-client>=6.1.12
+
+info 18:49:40.952:   Downloading jupyter_client-7.4.4-py3-none-any.whl (132 kB)
+
+info 18:49:41.032: Collecting nest-asyncio
+
+info 18:49:41.035:   Downloading nest_asyncio-1.5.6-py3-none-any.whl (5.2 kB)
+
+info 18:49:41.293: Collecting debugpy>=1.0
+
+info 18:49:41.315:   Downloading debugpy-1.6.3-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.8 MB)
+
+info 18:49:41.495: Collecting pyparsing!=3.0.5,>=2.0.2
+
+info 18:49:41.498:   Downloading pyparsing-3.0.9-py3-none-any.whl (98 kB)
+
+info 18:49:41.541: Requirement already satisfied, skipping upgrade: pexpect>4.3; sys_platform != "win32" in /usr/lib/python3/dist-packages (from ipython>=7.23.1->ipykernel) (4.6.0)
+
+info 18:49:41.569: Collecting stack-data
+
+info 18:49:41.576:   Downloading stack_data-0.6.0-py3-none-any.whl (24 kB)
+
+info 18:49:41.639: Collecting decorator
+
+info 18:49:41.642:   Downloading decorator-5.1.1-py3-none-any.whl (9.1 kB)
+
+info 18:49:41.687: Collecting pickleshare
+
+info 18:49:41.690:   Downloading pickleshare-0.7.5-py2.py3-none-any.whl (6.9 kB)
+
+info 18:49:41.745: Collecting jedi>=0.16
+
+info 18:49:41.772:   Downloading jedi-0.18.1-py2.py3-none-any.whl (1.6 MB)
+
+info 18:49:42.072: Collecting prompt-toolkit<3.1.0,>3.0.1
+
+info 18:49:42.077:   Downloading prompt_toolkit-3.0.32-py3-none-any.whl (382 kB)
+
+info 18:49:42.176: Collecting pygments>=2.4.0
+
+info 18:49:42.180:   Downloading Pygments-2.13.0-py3-none-any.whl (1.1 MB)
+
+info 18:49:42.277: Collecting backcall
+
+info 18:49:42.280:   Downloading backcall-0.2.0-py2.py3-none-any.whl (11 kB)
+
+info 18:49:42.342: Collecting jupyter-core>=4.9.2
+
+info 18:49:42.345:   Downloading jupyter_core-4.11.2-py3-none-any.whl (88 kB)
+
+info 18:49:42.419: Collecting python-dateutil>=2.8.2
+
+info 18:49:42.434:   Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+
+info 18:49:42.459: Requirement already satisfied, skipping upgrade: entrypoints in /usr/lib/python3/dist-packages (from jupyter-client>=6.1.12->ipykernel) (0.3)
+
+info 18:49:42.483: Collecting pure-eval
+
+info 18:49:42.486:   Downloading pure_eval-0.2.2-py3-none-any.whl (11 kB)
+
+info 18:49:42.536: Collecting executing>=1.2.0
+
+info 18:49:42.538:   Downloading executing-1.2.0-py2.py3-none-any.whl (24 kB)
+
+info 18:49:42.593: Collecting asttokens>=2.1.0
+
+info 18:49:42.596:   Downloading asttokens-2.1.0-py2.py3-none-any.whl (26 kB)
+
+info 18:49:42.651: Collecting parso<0.9.0,>=0.8.0
+
+info 18:49:42.653:   Downloading parso-0.8.3-py2.py3-none-any.whl (100 kB)
+
+info 18:49:42.709: Collecting wcwidth
+
+info 18:49:42.719:   Downloading wcwidth-0.2.5-py2.py3-none-any.whl (30 kB)
+
+info 18:49:42.743: Requirement already satisfied, skipping upgrade: six>=1.5 in /usr/lib/python3/dist-packages (from python-dateutil>=2.8.2->jupyter-client>=6.1.12->ipykernel) (1.14.0)
+
+info 18:49:42.956: Installing collected packages: psutil, tornado, traitlets, matplotlib-inline, pyzmq, pyparsing, packaging, pure-eval, executing, asttokens, stack-data, decorator, pickleshare, parso, jedi, wcwidth, prompt-toolkit, pygments, backcall, ipython, nest-asyncio, jupyter-core, python-dateutil, jupyter-client, debugpy, ipykernel
+
+info 18:49:44.790:   WARNING: The script pygmentize is installed in '/home/patrick_rubayita/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+
+info 18:49:45.111:   WARNING: The scripts ipython and ipython3 are installed in '/home/patrick_rubayita/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+
+info 18:49:45.151:   WARNING: The scripts jupyter, jupyter-migrate and jupyter-troubleshoot are installed in '/home/patrick_rubayita/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+
+info 18:49:45.257:   WARNING: The scripts jupyter-kernel, jupyter-kernelspec and jupyter-run are installed in '/home/patrick_rubayita/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+
+info 18:49:45.847: Successfully installed asttokens-2.1.0 backcall-0.2.0 debugpy-1.6.3 decorator-5.1.1 executing-1.2.0 ipykernel-6.17.0 ipython-8.6.0 jedi-0.18.1 jupyter-client-7.4.4 jupyter-core-4.11.2 matplotlib-inline-0.1.6 nest-asyncio-1.5.6 packaging-21.3 parso-0.8.3 pickleshare-0.7.5 prompt-toolkit-3.0.32 psutil-5.9.3 pure-eval-0.2.2 pygments-2.13.0 pyparsing-3.0.9 python-dateutil-2.8.2 pyzmq-24.0.1 stack-data-0.6.0 tornado-6.2 traitlets-5.5.0 wcwidth-0.2.5
+
+info 18:49:45.954: Got env vars ourselves faster /bin/python3 with env var count 53 in 0ms
+info 18:49:45.960: Process Execution: > /bin/python3 -c "import ipykernel"
+> /bin/python3 -c "import ipykernel"
+info 18:49:46.074: Dispose Kernel '/home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb' associated with '/home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb'
+info 18:49:46.075: Got env vars ourselves faster /bin/python3 with env var count 53 in 3ms
+info 18:49:46.082: Process Execution: > /bin/python3 -m pip list
+> /bin/python3 -m pip list
+info 18:49:46.083: Starting Jupyter Session startUsingPythonInterpreter, .jvsc74a57bd0916dbcbb3f70747c44a77c7bcd40155683ae19c65e1c03b4aa3499c5328201f1./bin/python3./bin/python3.-m#ipykernel_launcher (Python Path: , EnvType: Global, EnvName: '', Version: 3.10.6) for '/home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb' (disableUI=false)
+info 18:49:46.083: Computing working directory for resource '/home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb'
+info 18:49:46.085: Got env vars ourselves faster /bin/python3 with env var count 53 in 1ms
+info 18:49:46.090: Process Execution: > /bin/python3 -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+> /bin/python3 -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+info 18:49:46.098: Got env vars ourselves faster /bin/python3 with env var count 53 in 1ms
+info 18:49:46.098: Got env vars ourselves faster /bin/python3 with env var count 53 in 0ms
+info 18:49:46.107: Process Execution: > /bin/python3 -m ipykernel_launcher --ip=127.0.0.1 --stdin=9021 --control=9019 --hb=9018 --Session.signature_scheme="hmac-sha256" --Session.key=b"3402cec7-95b6-4981-ab57-02958c1f4210" --shell=9020 --transport="tcp" --iopub=9022 --f=/home/patrick_rubayita/.local/share/jupyter/runtime/kernel-v2-617561OVV3sM0v3Tsf.json
+> /bin/python3 -m ipykernel_launcher --ip=127.0.0.1 --stdin=9021 --control=9019 --hb=9018 --Session.signature_scheme="hmac-sha256" --Session.key=b"3402cec7-95b6-4981-ab57-02958c1f4210" --shell=9020 --transport="tcp" --iopub=9022 --f=/home/patrick_rubayita/.local/share/jupyter/runtime/kernel-v2-617561OVV3sM0v3Tsf.json
+info 18:49:46.107: Process Execution: cwd: ~/creative-optimisation-cv/notebooks
+cwd: ~/creative-optimisation-cv/notebooks
+info 18:49:46.210: ipykernel version & path 6.17.0, ~/.local/lib/python3.8/site-packages/ipykernel/__init__.py for /bin/python3
+info 18:49:46.477: Kernel Output: To connect another client to this kernel, use: --existing kernel-v2-617561OVV3sM0v3Tsf.json
+
+info 18:49:46.541: Started Kernel Python 3.10.6 64-bit (pid: 617699)
+info 18:49:46.545: UpdateWorkingDirectoryAndPath in Kernel
+info 18:50:14.617: Cancel all remaining cells true || Error || undefined
+info 18:57:24.547: Shutting down notebooks for 03dca010-f63e-4181-830d-a503dd1091fc
+info 18:57:24.547: Disposing HostJupyterExecution 1f4eafdd-906b-448d-b175-085c1fd22361
+info 18:57:24.547: Disposing super HostJupyterExecution 1f4eafdd-906b-448d-b175-085c1fd22361
+info 18:57:24.547: Dispose Kernel '/home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb' associated with '/home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb'
+info 18:57:24.548: Dispose Kernel '/home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb' associated with '/home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb'
+info 18:57:24.549: Dispose Kernel process 617699.
+info 18:57:24.556: Disposing HostJupyterExecution 1f4eafdd-906b-448d-b175-085c1fd22361
+info 18:57:24.556: Finished disposing HostJupyterExecution  1f4eafdd-906b-448d-b175-085c1fd22361
+info 18:57:24.560: Cleaning up server cache 1f4eafdd-906b-448d-b175-085c1fd22361
+info 18:57:24.561: Finished disposing HostJupyterExecution  1f4eafdd-906b-448d-b175-085c1fd22361

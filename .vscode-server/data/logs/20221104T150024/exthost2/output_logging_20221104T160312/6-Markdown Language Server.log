@@ -1,0 +1,10 @@
+[Trace 16:32:14.623] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///home/creative-optimisation-cv/README.md
+[Trace 16:32:14.624] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///home/creative-optimisation-cv/README.md
+[Trace 16:32:14.625] Server: connection.languages.diagnostics.on: file:///home/creative-optimisation-cv/README.md
+[Trace 16:32:14.626] Server: connection.languages.diagnostics.on: file:///home/creative-optimisation-cv/README.md
+[Trace 16:32:15.180] DocumentSymbolProvider: provideDocumentSymbols — file:///home/creative-optimisation-cv/README.md 1
+[Debug 16:32:15.181] LinkProvider: compute - file:///home/creative-optimisation-cv/README.md
+[Debug 16:32:15.415] MdFoldingProvider: provideFoldingRanges — file:///home/creative-optimisation-cv/README.md 1
+[Debug 16:32:15.415] TableOfContentsProvider: create - file:///home/creative-optimisation-cv/README.md
+[Trace 16:32:17.119] VsCodeClientWorkspace: TextDocument.onDidClose: file:///home/creative-optimisation-cv/README.md
+[Trace 16:32:17.119] VsCodeClientWorkspace: deleteDocument: file:///home/creative-optimisation-cv/README.md

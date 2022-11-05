@@ -1,0 +1,26 @@
+[Info  - 5:02:26 PM] (211719) Pylance language server 2022.11.10 (pyright 4e50162d) starting
+[Info  - 5:02:26 PM] (211719) Server root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist
+[Info  - 5:02:26 PM] (211719) Starting service instance "patrick_rubayita"
+[Info  - 5:02:26 PM] (211719) Notebook support: Legacy
+[Info  - 5:02:26 PM] (211719) Interactive window support: Legacy
+[Info  - 5:02:26 PM] (211719) No configuration file found.
+[Info  - 5:02:26 PM] (211719) No pyproject.toml file found.
+[Info  - 5:02:26 PM] (211719) Setting pythonPath for service "patrick_rubayita": "/bin/python3"
+[Warn  - 5:02:26 PM] (211719) stubPath /home/patrick_rubayita/typings is not a valid directory.
+[Info  - 5:02:26 PM] (211719) Assuming Python version 3.8
+[Info  - 5:02:26 PM] (211719) Assuming Python platform Linux
+[Info  - 5:02:26 PM] (211719) Searching for source files
+[Info  - 5:02:26 PM] (211719) Found 3 source files
+[Info  - 5:02:26 PM] (211719) Background analysis(1) root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist
+[Info  - 5:02:26 PM] (211719) Background analysis(1) started
+[Info  - 5:02:27 PM] (211719) Indexer background runner(2) root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist (index)
+[Info  - 5:02:27 PM] (211719) Indexing(2) started
+[Info  - 5:02:29 PM] (211719) [BG(1)] Long operation: checking: /home/patrick_rubayita/creative-optimisation-cv/notebooks/_NotebookConcat_9fda13ef25fe.py (2534ms)
+[Info  - 5:02:29 PM] (211719) [BG(1)] Long operation: analyzing: /home/patrick_rubayita/creative-optimisation-cv/notebooks/_NotebookConcat_9fda13ef25fe.py (2849ms)
+[Info  - 5:02:30 PM] (211719) [IDX(2)] Long operation: index execution environment /home/patrick_rubayita (2863ms)
+[Info  - 5:02:30 PM] (211719) [IDX(2)] Long operation: index libraries /home/patrick_rubayita (3317ms)
+[Info  - 5:02:30 PM] (211719) Indexer done(2). indexed 501 files
+[Info  - 5:02:52 PM] (211719) Searching for source files
+[Info  - 5:02:52 PM] (211719) Found 3 source files
+[Info  - 5:03:15 PM] (211719) Searching for source files
+[Info  - 5:03:16 PM] (211719) Found 3 source files

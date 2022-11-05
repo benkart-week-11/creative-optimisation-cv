@@ -1,0 +1,46 @@
+[Info  - 6:43:52 AM] (4088) Pylance language server 2022.11.10 (pyright 4e50162d) starting
+[Info  - 6:43:52 AM] (4088) Server root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist
+[Info  - 6:43:52 AM] (4088) Starting service instance "patrick_rubayita"
+[Info  - 6:43:52 AM] (4088) Notebook support: Legacy
+[Info  - 6:43:52 AM] (4088) Interactive window support: Legacy
+[Info  - 6:43:52 AM] (4088) No configuration file found.
+[Info  - 6:43:52 AM] (4088) No pyproject.toml file found.
+[Info  - 6:43:52 AM] (4088) Setting pythonPath for service "patrick_rubayita": "/bin/python3"
+[Warn  - 6:43:52 AM] (4088) stubPath /home/patrick_rubayita/typings is not a valid directory.
+[Info  - 6:43:52 AM] (4088) Assuming Python version 3.8
+[Info  - 6:43:52 AM] (4088) Assuming Python platform Linux
+[Info  - 6:43:53 AM] (4088) Searching for source files
+[Info  - 6:43:53 AM] (4088) Found 3 source files
+[Info  - 6:43:53 AM] (4088) Background analysis(1) root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist
+[Info  - 6:43:53 AM] (4088) Background analysis(1) started
+[Info  - 6:43:53 AM] (4088) Indexer background runner(2) root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist (index)
+[Info  - 6:43:53 AM] (4088) Indexing(2) started
+[Info  - 6:43:55 AM] (4088) [BG(1)] Long operation: analyzing: /home/patrick_rubayita/creative-optimisation-cv/notebooks/_NotebookConcat_9fda13ef25fe.py (2187ms)
+[Info  - 6:43:56 AM] (4088) [IDX(2)] Long operation: index libraries /home/patrick_rubayita (2376ms)
+[Info  - 6:43:56 AM] (4088) Indexer done(2). indexed 501 files
+[Info  - 6:45:50 AM] (4088) Searching for source files
+[Info  - 6:45:50 AM] (4088) Found 3 source files
+[Info  - 6:45:51 AM] (4088) Searching for source files
+[Info  - 6:45:51 AM] (4088) Found 3 source files
+[Info  - 6:46:19 AM] (4088) Searching for source files
+[Info  - 6:46:19 AM] (4088) Found 3 source files
+[Info  - 6:46:20 AM] (4088) Searching for source files
+[Info  - 6:46:20 AM] (4088) Found 3 source files
+[Info  - 6:46:42 AM] (4088) Searching for source files
+[Info  - 6:46:42 AM] (4088) Found 3 source files
+[Info  - 6:46:43 AM] (4088) Searching for source files
+[Info  - 6:46:43 AM] (4088) Found 3 source files
+[Info  - 6:47:04 AM] (4088) Searching for source files
+[Info  - 6:47:04 AM] (4088) Found 3 source files
+[Info  - 6:47:05 AM] (4088) Searching for source files
+[Info  - 6:47:05 AM] (4088) Found 3 source files
+[Info  - 6:47:06 AM] (4088) Searching for source files
+[Info  - 6:47:06 AM] (4088) Found 3 source files
+[Info  - 6:47:07 AM] (4088) Searching for source files
+[Info  - 6:47:07 AM] (4088) Found 3 source files
+[Info  - 6:47:08 AM] (4088) Searching for source files
+[Info  - 6:47:08 AM] (4088) Found 3 source files
+[Info  - 6:47:11 AM] (4088) Searching for source files
+[Info  - 6:47:11 AM] (4088) Found 3 source files
+[Info  - 6:47:36 AM] (4088) Searching for source files
+[Info  - 6:47:36 AM] (4088) Found 3 source files

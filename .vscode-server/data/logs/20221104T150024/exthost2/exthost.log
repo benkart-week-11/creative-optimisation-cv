@@ -1,0 +1,58 @@
+2022-11-04 16:03:12.562 [info] Extension host with pid 138889 started
+2022-11-04 16:03:12.576 [info] Lock '/home/patrick_rubayita/.vscode-server/data/User/workspaceStorage/00829fe3921f08e1dce67c828b0cf550/vscode.lock': Lock acquired.
+2022-11-04 16:03:12.984 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2022-11-04 16:03:13.343 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2022-11-04 16:03:13.343 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-11-04 16:03:14.188 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-11-04 16:03:14.188 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-11-04 16:03:14.188 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-11-04 16:03:14.189 [info] Eager extensions activated
+2022-11-04 16:30:55.659 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.isort
+2022-11-04 16:30:55.659 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2022-11-04 16:30:56.918 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2022-11-04 16:30:58.277 [info] ExtensionService#_doActivateExtension ms-python.isort, startup: false, activationEvent: 'onLanguage:python'
+2022-11-04 16:30:58.277 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2022-11-04 16:31:00.010 [error] [ms-python.isort] provider FAILED
+2022-11-04 16:31:00.010 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-04 16:31:04.298 [error] [ms-python.isort] provider FAILED
+2022-11-04 16:31:04.299 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-04 16:31:05.136 [error] [ms-python.isort] provider FAILED
+2022-11-04 16:31:05.136 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at runNextTicks (node:internal/process/task_queues:61:5)
+	at processImmediate (node:internal/timers:437:9)
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-04 16:32:14.016 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2022-11-04 16:32:14.017 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2022-11-04 16:32:15.249 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2022-11-04 16:32:20.274 [error] [ms-python.isort] provider FAILED
+2022-11-04 16:32:20.274 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-04 16:32:21.116 [error] [ms-python.isort] provider FAILED
+2022-11-04 16:32:21.116 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-04 16:32:32.776 [error] [ms-python.isort] provider FAILED
+2022-11-04 16:32:32.776 [error] TypeError: Cannot read properties of null (reading 'map')
+	at g (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:214870)
+	at Object.asCodeAction (/home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:225810)
+	at /home/patrick_rubayita/.vscode-server/extensions/ms-python.isort-2022.4.0/dist/extension.js:1:154524
+	at async x.provideCodeActions (/home/patrick_rubayita/.vscode-server/bin/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/out/vs/workbench/api/node/extensionHostProcess.js:94:43007)
+2022-11-04 16:33:32.144 [info] Extension host terminating: received terminate message from renderer
+2022-11-04 16:33:32.144 [info] Lock '/home/patrick_rubayita/.vscode-server/data/User/workspaceStorage/00829fe3921f08e1dce67c828b0cf550/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2022-11-04 16:33:32.167 [info] Extension host with pid 138889 exiting with code 0

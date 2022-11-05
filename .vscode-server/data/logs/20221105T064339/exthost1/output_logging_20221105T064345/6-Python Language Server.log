@@ -1,0 +1,149 @@
+[Info  - 6:43:58 AM] (4191) Pylance language server 2022.11.10 (pyright 4e50162d) starting
+[Info  - 6:43:58 AM] (4191) Server root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist
+[Info  - 6:43:58 AM] (4191) Starting service instance "patrick_rubayita"
+[Info  - 6:43:58 AM] (4191) Notebook support: LSP
+[Info  - 6:43:58 AM] (4191) Interactive window support: LSP
+[Info  - 6:43:58 AM] (4191) No configuration file found.
+[Info  - 6:43:58 AM] (4191) No pyproject.toml file found.
+[Info  - 6:43:58 AM] (4191) Setting pythonPath for service "patrick_rubayita": "/bin/python3"
+[Warn  - 6:43:58 AM] (4191) stubPath /home/patrick_rubayita/typings is not a valid directory.
+[Info  - 6:43:58 AM] (4191) Assuming Python version 3.8
+[Info  - 6:43:58 AM] (4191) Assuming Python platform Linux
+[Info  - 6:43:58 AM] (4191) Searching for source files
+[Info  - 6:43:58 AM] (4191) Found 3 source files
+[Info  - 6:43:58 AM] (4191) Starting service instance "/home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb"
+[Info  - 6:43:58 AM] (4191) Background analysis(1) root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist
+[Info  - 6:43:58 AM] (4191) Background analysis(1) started
+[Info  - 6:43:58 AM] (4191) No configuration file found.
+[Info  - 6:43:58 AM] (4191) No pyproject.toml file found.
+[Info  - 6:43:58 AM] (4191) Setting pythonPath for service "/home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb": "/bin/python3"
+[Warn  - 6:43:58 AM] (4191) stubPath /home/patrick_rubayita/typings is not a valid directory.
+[Info  - 6:43:58 AM] (4191) Assuming Python version 3.8
+[Info  - 6:43:58 AM] (4191) Assuming Python platform Linux
+[Info  - 6:43:58 AM] (4191) Searching for source files
+[Info  - 6:43:58 AM] (4191) Found 3 source files
+[Info  - 6:43:58 AM] (4191) Background analysis(2) root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist
+[Info  - 6:43:58 AM] (4191) Background analysis(2) started
+[Info  - 6:43:59 AM] (4191) Indexer background runner(3) root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist (index)
+[Info  - 6:43:59 AM] (4191) Indexing(3) started
+[Info  - 6:44:01 AM] (4191) [IDX(3)] Long operation: index libraries /home/patrick_rubayita (2041ms)
+[Info  - 6:44:01 AM] (4191) Indexer done(3). indexed 501 files
+[Info  - 6:44:37 AM] (4191) Starting service instance "/home/patrick_rubayita/creative-optimisation-cv/notebooks/dmnt.ipynb"
+[Info  - 6:44:37 AM] (4191) No configuration file found.
+[Info  - 6:44:37 AM] (4191) No pyproject.toml file found.
+[Info  - 6:44:37 AM] (4191) Setting pythonPath for service "/home/patrick_rubayita/creative-optimisation-cv/notebooks/dmnt.ipynb": "/bin/python3"
+[Warn  - 6:44:37 AM] (4191) stubPath /home/patrick_rubayita/typings is not a valid directory.
+[Info  - 6:44:37 AM] (4191) Assuming Python version 3.8
+[Info  - 6:44:37 AM] (4191) Assuming Python platform Linux
+[Info  - 6:44:38 AM] (4191) Searching for source files
+[Info  - 6:44:38 AM] (4191) Found 3 source files
+[Info  - 6:44:38 AM] (4191) Background analysis(4) root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist
+[Info  - 6:44:38 AM] (4191) Background analysis(4) started
+[Info  - 6:44:38 AM] (4191) Indexer background runner(5) root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist (index)
+[Info  - 6:44:38 AM] (4191) Indexing(5) started
+[Info  - 6:44:40 AM] (4191) Indexer done(5). indexed 501 files
+[Info  - 6:45:28 AM] (4191) No configuration file found.
+[Info  - 6:45:28 AM] (4191) No pyproject.toml file found.
+[Info  - 6:45:28 AM] (4191) Setting pythonPath for service "/home/patrick_rubayita/creative-optimisation-cv/notebooks/dmnt.ipynb": "/bin/python3"
+[Warn  - 6:45:28 AM] (4191) stubPath /home/patrick_rubayita/typings is not a valid directory.
+[Info  - 6:45:28 AM] (4191) Assuming Python version 3.8
+[Info  - 6:45:28 AM] (4191) Assuming Python platform Linux
+[Info  - 6:45:28 AM] (4191) Searching for source files
+[Info  - 6:45:28 AM] (4191) Found 3 source files
+[Info  - 6:45:28 AM] (4191) Indexer background runner(6) root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist (index)
+[Info  - 6:45:28 AM] (4191) Indexing(6) started
+[Info  - 6:45:29 AM] (4191) No configuration file found.
+[Info  - 6:45:29 AM] (4191) No pyproject.toml file found.
+[Info  - 6:45:29 AM] (4191) Setting pythonPath for service "/home/patrick_rubayita/creative-optimisation-cv/notebooks/dmnt.ipynb": "/bin/python3"
+[Warn  - 6:45:29 AM] (4191) stubPath /home/patrick_rubayita/typings is not a valid directory.
+[Info  - 6:45:29 AM] (4191) Assuming Python version 3.8
+[Info  - 6:45:29 AM] (4191) Assuming Python platform Linux
+[Info  - 6:45:29 AM] (4191) Searching for source files
+[Info  - 6:45:29 AM] (4191) Found 3 source files
+[Info  - 6:45:29 AM] (4191) No configuration file found.
+[Info  - 6:45:29 AM] (4191) No pyproject.toml file found.
+[Info  - 6:45:29 AM] (4191) Setting pythonPath for service "/home/patrick_rubayita/creative-optimisation-cv/notebooks/dmnt.ipynb": "/bin/python3"
+[Warn  - 6:45:29 AM] (4191) stubPath /home/patrick_rubayita/typings is not a valid directory.
+[Info  - 6:45:29 AM] (4191) Assuming Python version 3.8
+[Info  - 6:45:29 AM] (4191) Assuming Python platform Linux
+[Info  - 6:45:29 AM] (4191) Searching for source files
+[Info  - 6:45:30 AM] (4191) Found 3 source files
+[Info  - 6:45:31 AM] (4191) Indexer done(6). indexed 501 files
+[Info  - 6:45:50 AM] (4191) Searching for source files
+[Info  - 6:45:50 AM] (4191) Found 3 source files
+[Info  - 6:45:50 AM] (4191) Searching for source files
+[Info  - 6:45:50 AM] (4191) Found 3 source files
+[Info  - 6:45:50 AM] (4191) Searching for source files
+[Info  - 6:45:50 AM] (4191) Found 3 source files
+[Info  - 6:45:51 AM] (4191) Searching for source files
+[Info  - 6:45:51 AM] (4191) Found 3 source files
+[Info  - 6:45:51 AM] (4191) Searching for source files
+[Info  - 6:45:51 AM] (4191) Found 3 source files
+[Info  - 6:45:51 AM] (4191) Searching for source files
+[Info  - 6:45:51 AM] (4191) Found 3 source files
+[Info  - 6:46:19 AM] (4191) Searching for source files
+[Info  - 6:46:19 AM] (4191) Found 3 source files
+[Info  - 6:46:19 AM] (4191) Searching for source files
+[Info  - 6:46:19 AM] (4191) Found 3 source files
+[Info  - 6:46:19 AM] (4191) Searching for source files
+[Info  - 6:46:19 AM] (4191) Found 3 source files
+[Info  - 6:46:20 AM] (4191) Searching for source files
+[Info  - 6:46:20 AM] (4191) Found 3 source files
+[Info  - 6:46:20 AM] (4191) Searching for source files
+[Info  - 6:46:20 AM] (4191) Found 3 source files
+[Info  - 6:46:20 AM] (4191) Searching for source files
+[Info  - 6:46:20 AM] (4191) Found 3 source files
+[Info  - 6:46:42 AM] (4191) Searching for source files
+[Info  - 6:46:42 AM] (4191) Found 3 source files
+[Info  - 6:46:42 AM] (4191) Searching for source files
+[Info  - 6:46:42 AM] (4191) Found 3 source files
+[Info  - 6:46:42 AM] (4191) Searching for source files
+[Info  - 6:46:42 AM] (4191) Found 3 source files
+[Info  - 6:46:43 AM] (4191) Searching for source files
+[Info  - 6:46:43 AM] (4191) Found 3 source files
+[Info  - 6:46:43 AM] (4191) Searching for source files
+[Info  - 6:46:43 AM] (4191) Found 3 source files
+[Info  - 6:46:43 AM] (4191) Searching for source files
+[Info  - 6:46:43 AM] (4191) Found 3 source files
+[Info  - 6:47:04 AM] (4191) Searching for source files
+[Info  - 6:47:04 AM] (4191) Found 3 source files
+[Info  - 6:47:04 AM] (4191) Searching for source files
+[Info  - 6:47:04 AM] (4191) Found 3 source files
+[Info  - 6:47:04 AM] (4191) Searching for source files
+[Info  - 6:47:04 AM] (4191) Found 3 source files
+[Info  - 6:47:05 AM] (4191) Searching for source files
+[Info  - 6:47:05 AM] (4191) Found 3 source files
+[Info  - 6:47:05 AM] (4191) Searching for source files
+[Info  - 6:47:05 AM] (4191) Found 3 source files
+[Info  - 6:47:05 AM] (4191) Searching for source files
+[Info  - 6:47:06 AM] (4191) Found 3 source files
+[Info  - 6:47:06 AM] (4191) Searching for source files
+[Info  - 6:47:06 AM] (4191) Found 3 source files
+[Info  - 6:47:06 AM] (4191) Searching for source files
+[Info  - 6:47:06 AM] (4191) Found 3 source files
+[Info  - 6:47:06 AM] (4191) Searching for source files
+[Info  - 6:47:07 AM] (4191) Found 3 source files
+[Info  - 6:47:07 AM] (4191) Searching for source files
+[Info  - 6:47:07 AM] (4191) Found 3 source files
+[Info  - 6:47:07 AM] (4191) Searching for source files
+[Info  - 6:47:07 AM] (4191) Found 3 source files
+[Info  - 6:47:07 AM] (4191) Searching for source files
+[Info  - 6:47:08 AM] (4191) Found 3 source files
+[Info  - 6:47:08 AM] (4191) Searching for source files
+[Info  - 6:47:08 AM] (4191) Found 3 source files
+[Info  - 6:47:08 AM] (4191) Searching for source files
+[Info  - 6:47:08 AM] (4191) Found 3 source files
+[Info  - 6:47:08 AM] (4191) Searching for source files
+[Info  - 6:47:09 AM] (4191) Found 3 source files
+[Info  - 6:47:11 AM] (4191) Searching for source files
+[Info  - 6:47:11 AM] (4191) Found 3 source files
+[Info  - 6:47:11 AM] (4191) Searching for source files
+[Info  - 6:47:12 AM] (4191) Found 3 source files
+[Info  - 6:47:12 AM] (4191) Searching for source files
+[Info  - 6:47:12 AM] (4191) Found 3 source files
+[Info  - 6:47:36 AM] (4191) Searching for source files
+[Info  - 6:47:36 AM] (4191) Found 3 source files
+[Info  - 6:47:36 AM] (4191) Searching for source files
+[Info  - 6:47:36 AM] (4191) Found 3 source files
+[Info  - 6:47:36 AM] (4191) Searching for source files
+[Info  - 6:47:36 AM] (4191) Found 3 source files

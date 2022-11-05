@@ -1,0 +1,91 @@
+[Info  - 5:10:25 PM] (215833) Pylance language server 2022.11.10 (pyright 4e50162d) starting
+[Info  - 5:10:25 PM] (215833) Server root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist
+[Info  - 5:10:25 PM] (215833) Starting service instance "patrick_rubayita"
+[Info  - 5:10:25 PM] (215833) Notebook support: LSP
+[Info  - 5:10:25 PM] (215833) Interactive window support: LSP
+[Info  - 5:10:25 PM] (215833) No configuration file found.
+[Info  - 5:10:25 PM] (215833) No pyproject.toml file found.
+[Info  - 5:10:25 PM] (215833) Setting pythonPath for service "patrick_rubayita": "/bin/python3"
+[Warn  - 5:10:25 PM] (215833) stubPath /home/patrick_rubayita/typings is not a valid directory.
+[Info  - 5:10:25 PM] (215833) Assuming Python version 3.8
+[Info  - 5:10:25 PM] (215833) Assuming Python platform Linux
+[Info  - 5:10:25 PM] (215833) Searching for source files
+[Info  - 5:10:25 PM] (215833) Found 3 source files
+[Info  - 5:10:25 PM] (215833) Starting service instance "/home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb"
+[Info  - 5:10:25 PM] (215833) Background analysis(1) root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist
+[Info  - 5:10:25 PM] (215833) Background analysis(1) started
+[Info  - 5:10:25 PM] (215833) No configuration file found.
+[Info  - 5:10:25 PM] (215833) No pyproject.toml file found.
+[Info  - 5:10:25 PM] (215833) Setting pythonPath for service "/home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb": "/bin/python3"
+[Warn  - 5:10:25 PM] (215833) stubPath /home/patrick_rubayita/typings is not a valid directory.
+[Info  - 5:10:25 PM] (215833) Assuming Python version 3.8
+[Info  - 5:10:25 PM] (215833) Assuming Python platform Linux
+[Info  - 5:10:25 PM] (215833) Searching for source files
+[Info  - 5:10:25 PM] (215833) Found 3 source files
+[Info  - 5:10:25 PM] (215833) Background analysis(2) root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist
+[Info  - 5:10:25 PM] (215833) Background analysis(2) started
+[Info  - 5:10:26 PM] (215833) Indexer background runner(3) root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist (index)
+[Info  - 5:10:26 PM] (215833) Indexing(3) started
+[Info  - 5:10:28 PM] (215833) [IDX(3)] Long operation: index libraries /home/patrick_rubayita (2303ms)
+[Info  - 5:10:28 PM] (215833) Indexer done(3). indexed 501 files
+[Info  - 5:13:44 PM] (215833) No configuration file found.
+[Info  - 5:13:44 PM] (215833) No pyproject.toml file found.
+[Info  - 5:13:44 PM] (215833) Setting pythonPath for service "/home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb": "/bin/python3"
+[Warn  - 5:13:44 PM] (215833) stubPath /home/patrick_rubayita/typings is not a valid directory.
+[Info  - 5:13:44 PM] (215833) Assuming Python version 3.8
+[Info  - 5:13:44 PM] (215833) Assuming Python platform Linux
+[Info  - 5:13:44 PM] (215833) Searching for source files
+[Info  - 5:13:44 PM] (215833) Found 3 source files
+[Info  - 5:13:44 PM] (215833) No configuration file found.
+[Info  - 5:13:44 PM] (215833) No pyproject.toml file found.
+[Info  - 5:13:44 PM] (215833) Setting pythonPath for service "/home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb": "/bin/python3"
+[Warn  - 5:13:44 PM] (215833) stubPath /home/patrick_rubayita/typings is not a valid directory.
+[Info  - 5:13:44 PM] (215833) Assuming Python version 3.8
+[Info  - 5:13:44 PM] (215833) Assuming Python platform Linux
+[Info  - 5:13:44 PM] (215833) Searching for source files
+[Info  - 5:13:45 PM] (215833) Found 3 source files
+[Info  - 5:13:45 PM] (215833) Indexer background runner(4) root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist (index)
+[Info  - 5:13:45 PM] (215833) Indexing(4) started
+[Info  - 5:13:47 PM] (215833) [BG(2)] Long operation: analyzing: /home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb:pylance-notebook-cell:W0sdnNjb2RlLXJlbW90ZQ==.py (2464ms)
+[Info  - 5:13:49 PM] (215833) [IDX(4)] Long operation: index execution environment /home/patrick_rubayita (3169ms)
+[Info  - 5:13:49 PM] (215833) [IDX(4)] Long operation: index libraries /home/patrick_rubayita (3995ms)
+[Info  - 5:13:49 PM] (215833) Indexer done(4). indexed 501 files
+Error: request cancelled
+    at t.throwIfCancellationRequested (/home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist/pyright-internal/src/common/cancellationUtils.ts:42:15)
+    at MessagePort.<anonymous> (/home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist/server.bundle.js:1:397258)
+    at MessagePort.[nodejs.internal.kHybridDispatch] (node:internal/event_target:647:20)
+    at MessagePort.exports.emitMessage (node:internal/per_context/messageport:23:28)
+[Info  - 5:13:50 PM] Connection to server got closed. Server will restart.
+[Info  - 5:13:50 PM] (234198) Pylance language server 2022.11.10 (pyright 4e50162d) starting
+[Info  - 5:13:50 PM] (234198) Server root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist
+[Info  - 5:13:50 PM] (234198) Starting service instance "patrick_rubayita"
+[Info  - 5:13:50 PM] (234198) Notebook support: LSP
+[Info  - 5:13:50 PM] (234198) Interactive window support: LSP
+[Info  - 5:13:50 PM] (234198) No configuration file found.
+[Info  - 5:13:50 PM] (234198) No pyproject.toml file found.
+[Info  - 5:13:50 PM] (234198) Setting pythonPath for service "patrick_rubayita": "/bin/python3"
+[Warn  - 5:13:50 PM] (234198) stubPath /home/patrick_rubayita/typings is not a valid directory.
+[Info  - 5:13:50 PM] (234198) Assuming Python version 3.8
+[Info  - 5:13:50 PM] (234198) Assuming Python platform Linux
+[Info  - 5:13:50 PM] (234198) Searching for source files
+[Info  - 5:13:50 PM] (234198) Found 3 source files
+[Info  - 5:13:50 PM] (234198) Starting service instance "/home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb"
+[Info  - 5:13:50 PM] (234198) No configuration file found.
+[Info  - 5:13:50 PM] (234198) No pyproject.toml file found.
+[Info  - 5:13:50 PM] (234198) Setting pythonPath for service "/home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb": "/bin/python3"
+[Warn  - 5:13:50 PM] (234198) stubPath /home/patrick_rubayita/typings is not a valid directory.
+[Info  - 5:13:50 PM] (234198) Assuming Python version 3.8
+[Info  - 5:13:50 PM] (234198) Assuming Python platform Linux
+[Info  - 5:13:51 PM] (234198) Searching for source files
+[Info  - 5:13:51 PM] (234198) Found 3 source files
+[Info  - 5:13:51 PM] (234198) Background analysis(1) root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist
+[Info  - 5:13:51 PM] (234198) Background analysis(1) started
+[Info  - 5:13:52 PM] (234198) Background analysis(2) root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist
+[Info  - 5:13:52 PM] (234198) Background analysis(2) started
+[Info  - 5:13:52 PM] (234198) Indexer background runner(3) root directory: /home/patrick_rubayita/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.10/dist (index)
+[Info  - 5:13:52 PM] (234198) Indexing(3) started
+[Info  - 5:13:56 PM] (234198) [BG(2)] Long operation: checking: /home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb:pylance-notebook-cell:W0sdnNjb2RlLXJlbW90ZQ==.py (2252ms)
+[Info  - 5:13:56 PM] (234198) [BG(2)] Long operation: analyzing: /home/patrick_rubayita/creative-optimisation-cv/notebooks/DataExtractor.ipynb:pylance-notebook-cell:W0sdnNjb2RlLXJlbW90ZQ==.py (2252ms)
+[Info  - 5:13:56 PM] (234198) [IDX(3)] Long operation: index execution environment /home/patrick_rubayita (3438ms)
+[Info  - 5:13:56 PM] (234198) [IDX(3)] Long operation: index libraries /home/patrick_rubayita (4101ms)
+[Info  - 5:13:56 PM] (234198) Indexer done(3). indexed 501 files
