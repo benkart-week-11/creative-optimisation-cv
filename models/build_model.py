@@ -17,6 +17,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
+"""
+    Keras: Multiple Inputs and Mixed Data
+"""
 class BuildModel:
     def __init__(self):
         pass
@@ -26,7 +29,6 @@ class BuildModel:
     x = Dense(256, activation="relu")(x)
     x = Dense(128, activation="relu")(x) 
     return x
-
   
     def mode4text_feature(self,x):
         x = Dense(256, activation="relu")(x)
