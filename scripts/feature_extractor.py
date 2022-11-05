@@ -1,33 +1,24 @@
 import cv2
 import numpy as np
-<<<<<<< HEAD
-<<<<<<< HEAD:scripts/logo_detector.py
+
 import os
 import pickle as pkl
 
 
 class LogoDetector:
-=======
 
-=======
->>>>>>> 1e0626321ae9382fe557d4e10f42181cf3e78765
 import matplotlib.pyplot as plt
 
 class FeatureDetector:
->>>>>>> b546c454bceb9cb04ebfa118ec358060ba31ab70:scripts/feature_extractor.py
+
     def __init__(self) -> None:
         pass
 
     def createDetector(self):
         detector = cv2.ORB_create(nfeatures=2000)
         return detector
-<<<<<<< HEAD:scripts/logo_detector.py
 
-    def getFeatures(self, img):
-=======
-    
     def getFeatures(self,img):
->>>>>>> b546c454bceb9cb04ebfa118ec358060ba31ab70:scripts/feature_extractor.py
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         detector = self.createDetector()
         kps, descs = detector.detectAndCompute(gray, None)
@@ -76,8 +67,7 @@ class FeatureDetector:
 
         # Show the final image
         plt.imshow(final_img)
-<<<<<<< HEAD
-      
+
         return kps, descs, img.shape[:2][::-1]
 
     def detectFeatures(self, imagePath, train_features):
@@ -109,7 +99,7 @@ class FeatureDetector:
                               ]).reshape(-1, 1, 2)
 
         m, mask = cv2.findHomography(src_pts, dst_pts, cv2.RANSAC, 5.0)
-<<<<<<< HEAD:scripts/logo_detector.py
+
         return m, mask
 """
 if m is not None:
@@ -158,7 +148,6 @@ cv2.drawContours(img, [box], 0, (0, 255, 0), 2)
 display the image
 cv2.imshow("Preview", img)
 """
-=======
         if m is not None:
             # apply perspective transform to train image corners to get a bounding box coordinates on a sample image
             scene_points = cv2.perspectiveTransform(np.float32([(0, 0), (0, shape[0] - 1), (shape[1] - 1, shape[0] - 1), (shape[1] - 1, 0)]).reshape(-1, 1, 2), m)
@@ -167,9 +156,3 @@ cv2.imshow("Preview", img)
             if rect[1][1] > 0 and 0.8 < (rect[1][0] / rect[1][1]) < 1.2:
                 return rect
         return None
->>>>>>> b546c454bceb9cb04ebfa118ec358060ba31ab70:scripts/feature_extractor.py
-=======
-    
-
-            
->>>>>>> 1e0626321ae9382fe557d4e10f42181cf3e78765
