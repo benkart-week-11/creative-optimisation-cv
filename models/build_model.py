@@ -71,6 +71,6 @@ class BuildModel:
         plt.title('model mean square error')
         plt.ylabel('loss')
         plt.xlabel('epoch')
-        plt.savefig('../models/model_training.png')
+        plt.savefig('model_training.png')
         # plt.show()
         
