@@ -14,6 +14,7 @@ from tensorflow.keras.models import Model
 import tensorflow as tf
 
 import pandas as pd
+import matplotlib.pyplot as plt
 
 
 class BuildModel:
@@ -63,5 +64,13 @@ class BuildModel:
         
         history = model.fit( x=[tf.cast(img_train_data,tf.float64), tf.cast(numeric_train,tf.float64)],
                   y = tf.cast(y_train, tf.float64),
-                  epochs=15,batch_size=8)
+                  epochs=50,batch_size=8)
+  
+        # summarize history for loss
+        plt.plot(history.history['loss'])
+        plt.title('model mean square error')
+        plt.ylabel('loss')
+        plt.xlabel('epoch')
+        plt.savefig('model_training.png')
+        # plt.show()
         
