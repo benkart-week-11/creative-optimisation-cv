@@ -1,6 +1,8 @@
 # import the necessary packages
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import BatchNormalization
+from tensorflow.keras.layers import GlobalAveragePooling2D
+from tensorflow.keras.layers import Concatenate, concatenate
 from tensorflow.keras.layers import Conv2D
 from tensorflow.keras.layers import MaxPooling2D
 from tensorflow.keras.layers import Activation
@@ -9,6 +11,8 @@ from tensorflow.keras.layers import Dense
 from tensorflow.keras.layers import Flatten
 from tensorflow.keras.layers import Input
 from tensorflow.keras.models import Model
+import tensorflow as tf
+
 
 
 class CreateModels:
